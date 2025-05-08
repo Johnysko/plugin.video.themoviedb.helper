@@ -90,38 +90,40 @@ class ItemMapperMethods:
             iso_country = release_country['iso_3166_1']
             for release in (release_country.get('release_dates') or ()):
                 data.append({
-                    'name': release['certification'],
-                    'iso_country': iso_country,
-                    'iso_language': release['iso_639_1'],
-                    'release_date': release['release_date'],
+                    'name': release['certification'] or None,
+                    'iso_country': iso_country or None,
+                    'iso_language': release['iso_639_1'] or None,
+                    'release_date': release['release_date'] or None,
                     'release_type': tmdb_release_types.get(release['type']),
                 })
         return data
 
-    @staticmethod
-    def get_fanart_tv(items, **kwargs):
+    def get_fanart_tv(self, items, **kwargs):
         if not items:
             return
 
         art_types = {
-            'movieposter': 'poster',
-            'moviebackground': 'fanart',
-            'moviethumb': 'landscape',
-            'moviebanner': 'banner',
-            'hdmovieclearart': 'clearart',
-            'movieclearart': 'clearart',
-            'hdmovielogo': 'clearlogo',
-            'movielogo': 'clearlogo',
-            'moviedisc': 'discart',
-            'tvposter': 'poster',
-            'showbackground': 'fanart',
-            'tvthumb': 'landscape',
-            'tvbanner': 'banner',
-            'hdclearart': 'clearart',
-            'clearart': 'clearart',
-            'hdtvlogo': 'clearlogo',
-            'clearlogo': 'clearlogo',
-            'characterart': 'characterart',
+            'movieposter': ('poster', False),
+            'moviebackground': ('fanart', False),
+            'moviethumb': ('landscape', False),
+            'moviebanner': ('banner', False),
+            'hdmovieclearart': ('clearart', False),
+            'movieclearart': ('clearart', False),
+            'hdmovielogo': ('clearlogo', False),
+            'movielogo': ('clearlogo', False),
+            'moviedisc': ('discart', False),
+            'tvposter': ('poster', False),
+            'tvthumb': ('landscape', False),
+            'tvbanner': ('banner', False),
+            'hdclearart': ('clearart', False),
+            'clearart': ('clearart', False),
+            'hdtvlogo': ('clearlogo', False),
+            'clearlogo': ('clearlogo', False),
+            'characterart': ('characterart', False),
+            'showbackground': ('fanart', True),
+            'seasonposter': ('poster', True),
+            'seasonbanner': ('banner', True),
+            'seasonthumb': ('landscape', True),
         }
 
         data = []
@@ -132,16 +134,25 @@ class ItemMapperMethods:
             art_type = art_types.get(art_type)
             if not art_type:
                 continue
+            art_type, art_has_seasons = art_type
             for art_item in art_list:
                 path = art_item['url']
-                data.append({
+                item = {
                     'icon': path,
                     'iso_language': art_item.get('lang'),
                     'likes': art_item.get('likes'),
                     'type': art_type,
                     'quality': quality,
                     'extension': path.split('.')[-1] if path else None,
-                })
+                }
+
+                if art_has_seasons:
+                    snum = (art_item.get('season') or 'all')
+                    if snum != 'all':
+                        item['parent_id'] = f'tv.{self.tmdb_id}.{snum}'
+
+                data.append(item)
+
         return data
 
     @staticmethod
@@ -456,6 +467,30 @@ class ItemMapper(_ItemMapper, ItemMapperMethods):
             'videos': [{
                 'keys': [('video', None)],
                 'func': self.get_video,
+            }],
+            'created_by': [{
+                'keys': [('baseitem', None)],
+                'extend': True,
+                'func': self.split_array,
+                'kwargs': {
+                    'id': lambda i: f'person.{i["id"]}',
+                    'mediatype': lambda _: 'person',
+                    'expiry': lambda _: 0}}, {
+                # ---
+                'keys': [('crewmember', None)],
+                'extend': True,
+                'func': self.split_array,
+                'kwargs': {
+                    'tmdb_id': 'id',
+                    'role': lambda _: 'Creator',
+                    'department': lambda _: 'Creator'}}, {
+                # ---
+                'keys': [('person', None)],
+                'extend': True,
+                'func': self.split_array,
+                'kwargs': {
+                    'id': lambda i: f'person.{i["id"]}',
+                    'tmdb_id': 'id', 'thumb': 'profile_path', 'name': 'name', 'gender': 'gender'}
             }],
             'credits': [{
                 'keys': [('baseitem', None)],

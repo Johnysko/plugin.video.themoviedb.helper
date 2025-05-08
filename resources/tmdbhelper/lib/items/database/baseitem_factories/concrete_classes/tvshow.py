@@ -6,6 +6,7 @@ class Tvshow(MediaItem):
     table = 'tvshow'
     tmdb_type = 'tv'
     db_studio_table = 'network'
+    ftv_type = 'tv'
 
     @property
     def online_data_kwgs(self):
@@ -40,6 +41,10 @@ class Tvshow(MediaItem):
             'basemeta_db_fanart_tv_clearlogo_tvshow': self.config_basemeta_db_tvshow,
             'basemeta_db_fanart_tv_clearart_tvshow': self.config_basemeta_db_tvshow,
             'basemeta_db_fanart_tv_banner_tvshow': self.config_basemeta_db_tvshow,
+            'basemeta_db_fanart_tv_poster_season': self.config_basemeta_db_season,
+            'basemeta_db_fanart_tv_fanart_season': self.config_basemeta_db_season,
+            'basemeta_db_fanart_tv_landscape_season': self.config_basemeta_db_season,
+            'basemeta_db_fanart_tv_banner_season': self.config_basemeta_db_season,
             'basemeta_db_art_poster_tvshow': self.config_basemeta_db_tvshow,
             'basemeta_db_art_fanart_tvshow': self.config_basemeta_db_tvshow,
             'basemeta_db_art_landscape_tvshow': self.config_basemeta_db_tvshow,
