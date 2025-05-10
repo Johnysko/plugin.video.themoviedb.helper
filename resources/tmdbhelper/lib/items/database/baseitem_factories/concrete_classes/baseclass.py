@@ -38,14 +38,6 @@ class BaseItem(ItemDetailsDatabaseAccess):
         return item_mapper
 
     @property
-    def has_fanart_tv(self):
-        if not self.common_apis.ftv_api:
-            return False
-        if not self.ftv_id:
-            return False
-        return True
-
-    @property
     def online_data_func(self):  # The function to get data e.g. get_response_json
         return self.common_apis.tmdb_api.get_response_json
 
@@ -86,10 +78,7 @@ class BaseItem(ItemDetailsDatabaseAccess):
         """ WHERE condition ? ? ? ? = value, value, value, value """
         if self.cache_refresh == 'never':
             return (self.item_id, 0, )
-        return (self.item_id, self.current_time, )
-
-    def db_baseitem_cache_get_parent_data(self):
-        return
+        return (self.item_id, self.current_time)
 
     @property
     def db_table_caches(self):
@@ -110,9 +99,6 @@ class BaseItem(ItemDetailsDatabaseAccess):
 
         with contextlib.suppress(AttributeError):
             return getattr(self, attr)
-
-        if route.startswith('fanart_tv') and not self.has_fanart_tv:
-            return
 
         configurator = self.routes_basemeta_db.get(attr) or self.config_basemeta_db
         database_obj = configurator(BaseMetaFactory(route))
@@ -151,16 +137,13 @@ class BaseItem(ItemDetailsDatabaseAccess):
     def set_cached_data(self, item_id, mediatype, expiry, table, keys, mapped_data, return_data=False):
         if not return_data:
             self.del_cached('baseitem', item_id)
-        self.set_cached_values('baseitem', item_id, keys=('mediatype', 'expiry'), values=(mediatype, expiry))
+        self.set_cached_values('baseitem', item_id, keys=('mediatype', 'expiry', ), values=(mediatype, expiry,))
         self.set_cached_many(table, keys, mapped_data)
 
-    def try_cached_data(self, return_data=False):
+    def try_cached_data(self, return_data=False, return_queue=False):
         online_data_mapped = self.online_data_mapped
         if not online_data_mapped:
             return
-
-        # Check for parent data (if needed)
-        self.db_baseitem_cache_get_parent_data()
 
         # Check for future items to lower expiry and refresh more frequently closer to premiere
         self.unaired_expiry(online_data_mapped['item'].get('premiered'), online_data_mapped['item'].get('next_episode_to_air_id'))
@@ -180,14 +163,22 @@ class BaseItem(ItemDetailsDatabaseAccess):
                 qitem = db_cache.try_cached_data(online_data_mapped)
                 queue.append(qitem)
 
+        if return_queue:
+            return queue
+
+        self.write_data_queue(queue)
+
+        if not return_data:
+            return
+
+        return self.get_cached_data()
+
+    def write_data_queue(self, queue):
         with self.connection.open():
             self.connection.open_connection.execute('BEGIN')
             for func, args, kwgs in queue:
                 func(*args, **kwgs)
             self.connection.open_connection.execute('COMMIT')
-        if not return_data:
-            return
-        return self.get_cached_data()
 
     @cached_property
     def data(self):

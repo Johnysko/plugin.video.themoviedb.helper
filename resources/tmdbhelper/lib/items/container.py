@@ -323,6 +323,8 @@ class ContainerDirectory(ContainerDirectoryCommon):
         lidc.pagination = self.pagination
         lidc.cache_refresh = 'never' if self.is_cacheonly else None
         lidc.extendedinfo = True if self.is_detailed else False
+        lidc.timer_lists = self.timer_lists
+        lidc.log_timers = self.log_timers
         return lidc
 
     def build_detailed_item(self, li):
@@ -334,3 +336,15 @@ class ContainerDirectory(ContainerDirectoryCommon):
         with TimerList(self.timer_lists, '--build', log_threshold=0.05, logging=self.log_timers):
             items = self.lidc.configure_listitems_threaded(items)
             return [i for i in (self.build_detailed_item(li) for li in items if li) if i]
+
+
+class ContainerDefaultCacheDirectory(ContainerDirectory):
+    @property
+    def default_cacheonly(self):
+        if get_condvisibility('Skin.HasSetting(TMDbHelper.DisableDefaultCacheOnly)'):
+            return False
+        return True
+
+
+class ContainerCacheOnlyDirectory(ContainerDirectory):
+    default_cacheonly = True

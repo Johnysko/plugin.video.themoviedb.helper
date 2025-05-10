@@ -1,10 +1,10 @@
 from tmdbhelper.lib.items.database.baseitem_factories.concrete_classes.season import Season
 from tmdbhelper.lib.files.ftools import cached_property
-from tmdbhelper.lib.addon.logger import kodi_log
 
 
 class Episode(Season):
     table = 'episode'
+    ftv_type = None
 
     @property
     def data_cond(self):
@@ -18,6 +18,28 @@ class Episode(Season):
         if not self.episode:
             return False
         return True
+
+    @property
+    def online_data_cond(self):
+        if not self.data_cond:
+            return False
+        if not self.parent_item_data:
+            return False
+        return True
+
+    @cached_property
+    def parent_item_data(self):
+        try:
+            base_dbc = Season()
+            base_dbc.mediatype = 'season'
+            base_dbc.tmdb_type = 'tv'
+            base_dbc.tmdb_id = self.tmdb_id
+            base_dbc.season = self.season
+            base_dbc.common_apis = self.common_apis
+            base_dbc.cache = self.cache
+        except (TypeError, KeyError, IndexError, ValueError):
+            return
+        return base_dbc.data
 
     @property
     def item_id(self):
@@ -68,14 +90,6 @@ class Episode(Season):
         """ SELECT """
         additional_keys = ['tvshow.title AS tvshowtitle', 'season.season AS season', 'tvshow.tagline as tagline']
         return tuple([f'{self.table}.{k}' for k in self.keys] + additional_keys)
-
-    def db_baseitem_cache_get_parent_data(self):
-        base_dbc = Season()
-        base_dbc.common_apis = self.common_apis
-        base_dbc.mediatype = 'season'
-        base_dbc.tmdb_id = self.tmdb_id
-        base_dbc.season = self.season
-        return base_dbc.data
 
     @property
     def db_table_caches(self):

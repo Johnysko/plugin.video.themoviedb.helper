@@ -150,6 +150,11 @@ class ItemMapperMethods:
                     snum = (art_item.get('season') or 'all')
                     if snum != 'all':
                         item['parent_id'] = f'tv.{self.tmdb_id}.{snum}'
+                        self.item['baseitem'].append({
+                            'id': f'tv.{self.tmdb_id}.{snum}',
+                            'mediatype': 'season',
+                            'expiry': 0,
+                        })
 
                 data.append(item)
 
@@ -638,6 +643,7 @@ class ItemMapper(_ItemMapper, ItemMapperMethods):
                 'func': lambda v: [{'key': 'revenue', 'value': f'${float(v):0,.0f}'}]
             }],
         }
+
         self.standard_map = {
             'id': ('item', 'tmdb_id'),
             'title': ('item', 'title'),
@@ -648,6 +654,8 @@ class ItemMapper(_ItemMapper, ItemMapperMethods):
             'status': ('item', 'status'),
             'season_number': ('item', 'season'),
             'episode_number': ('item', 'episode'),
+            'number_of_seasons': ('item', 'totalseasons'),
+            'number_of_episodes': ('item', 'totalepisodes'),
             'episode_type': ('item', 'status'),
             'biography': ('item', 'biography'),
             'birthday': ('item', 'birthday'),
@@ -773,6 +781,6 @@ class ItemMapper(_ItemMapper, ItemMapperMethods):
         }
 
     def get_info(self, data, **kwargs):
-        item = self.get_empty_item()
-        item = self.map_item(item, data)
-        return item
+        self.item = self.get_empty_item()
+        self.item = self.map_item(self.item, data)
+        return self.item

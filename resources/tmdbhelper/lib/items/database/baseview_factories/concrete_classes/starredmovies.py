@@ -3,7 +3,6 @@ from tmdbhelper.lib.items.database.baseview_factories.concrete_classes.basemedia
 
 class StarredMoviesMediaList(MediaList):
     table = 'castmember'
-
     cached_data_innertable = 'movie'
 
     @property
