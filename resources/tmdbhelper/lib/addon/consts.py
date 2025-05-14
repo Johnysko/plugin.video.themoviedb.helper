@@ -7,6 +7,10 @@ SHORTER_EXPIRY = DAY_IN_SECONDS * 7
 TEMPDAY_EXPIRY = DAY_IN_SECONDS
 HALFDAY_EXPIRY = DAY_IN_SECONDS * 0.5
 
+DATALEVEL_OFF = 0
+DATALEVEL_MIN = 1
+DATALEVEL_MAX = 5
+
 TVDB_DISCLAIMER = 'Information provided by TheTVDB.com. Please consider supporting them. https://thetvdb.com/subscribe'
 
 NODE_BASEDIR = 'special://profile/addon_data/plugin.video.themoviedb.helper/nodes/'
@@ -362,58 +366,6 @@ TRAKT_BASIC_LISTS = {
 }
 
 
-TRAKT_SYNC_LISTS = {
-    'trakt_collection': {
-        'route': {
-            'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
-            'import_attr': 'ListCollection'
-        },
-    },
-    'trakt_watchlist': {
-        'route': {
-            'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
-            'import_attr': 'ListWatchlist'
-        },
-    },
-    'trakt_watchlist_released': {
-        'route': {
-            'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
-            'import_attr': 'ListWatchlistReleased'
-        },
-    },
-    'trakt_watchlist_anticipated': {
-        'route': {
-            'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
-            'import_attr': 'ListWatchlistAnticipated'
-        },
-    },
-    'trakt_history': {
-        'route': {
-            'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
-            'import_attr': 'ListHistory'
-        },
-    },
-    'trakt_mostwatched': {
-        'route': {
-            'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
-            'import_attr': 'ListMostWatched'
-        },
-    },
-    'trakt_inprogress': {
-        'route': {
-            'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
-            'import_attr': 'ListPlaybackProgress'
-        },
-    },
-    'trakt_favorites': {
-        'route': {
-            'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
-            'import_attr': 'ListFavorites'
-        },
-    }
-}
-
-
 TRAKT_LIST_OF_LISTS_ROUTE = {
     'module_name': 'tmdbhelper.lib.items.directories.lists_trakt',
     'import_attr': 'ListLists'}
@@ -506,6 +458,30 @@ ROUTE_NOID = {
     'trakt_airingnext': {'route': {
         'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_airingnext',
         'import_attr': 'ListTraktAiringNext'}},
+    'trakt_collection': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
+        'import_attr': 'ListCollection'}},
+    'trakt_watchlist': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
+        'import_attr': 'ListWatchlist'}},
+    'trakt_watchlist_released': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
+        'import_attr': 'ListWatchlistReleased'}},
+    'trakt_watchlist_anticipated': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
+        'import_attr': 'ListWatchlistAnticipated'}},
+    'trakt_history': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
+        'import_attr': 'ListHistory'}},
+    'trakt_mostwatched': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
+        'import_attr': 'ListMostWatched'}},
+    'trakt_favorites': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
+        'import_attr': 'ListFavorites'}},
+    'trakt_dropped': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
+        'import_attr': 'ListDropped'}},
     'trakt_inprogress': {'route': {
         'module_name': 'tmdbhelper.lib.items.directories.trakt.lists_sync',
         'import_attr': 'ListInProgress'}},
@@ -612,6 +588,9 @@ ROUTE_TMDBID = {
     'flatseasons': {'route': {
         'module_name': 'tmdbhelper.lib.items.directories.tmdb.lists_seasons',
         'import_attr': 'ListFlatSeasons'}},
+    'anticipated_episodes': {'route': {
+        'module_name': 'tmdbhelper.lib.items.directories.tmdb.lists_seasons',
+        'import_attr': 'ListAnticipatedEpisodes'}},
     'episodes': {'route': {
         'module_name': 'tmdbhelper.lib.items.directories.tmdb.lists_seasons',
         'import_attr': 'ListEpisodes'}},

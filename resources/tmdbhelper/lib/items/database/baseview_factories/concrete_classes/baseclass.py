@@ -1,12 +1,14 @@
 from tmdbhelper.lib.files.ftools import cached_property
 from tmdbhelper.lib.items.database.basedata import ItemDetailsDatabaseAccess
+from tmdbhelper.lib.addon.consts import DATALEVEL_MAX
+from jurialmunkey.locker import MutexPropLock
 
 
 class BaseList(ItemDetailsDatabaseAccess):
     cached_data_check_key = 'expiry'
     cache_refresh = None  # Set to "never" for cache only, or "force" for forced refresh
     cached_data_table = table = 'baseitem'
-    cached_data_conditions = 'id=? AND expiry>=?'
+    cached_data_conditions = 'id=? AND expiry>=? AND datalevel>=?'
     season = None
     episode = None
 
@@ -27,38 +29,33 @@ class BaseList(ItemDetailsDatabaseAccess):
     @property
     def cached_data_values(self):
         """ WHERE condition ? ? ? ? = value, value, value, value """
-        if self.cache_refresh == 'never':
-            return (self.item_id, 0, )
-        return (self.item_id, self.current_time, )
+        return (self.item_id, self.current_time, DATALEVEL_MAX)
 
     def configure_mapped_data(self, data):
-        def get_value(k):
-            if k == 'id':
-                return self.item_id
-            if k == 'expiry':
-                return self.expiry
-            try:
-                return data[k]
-            except (TypeError, KeyError, IndexError, ValueError):
-                return
-        return [get_value(k) for k in self.keys]
+        raise Exception(f'Method configure_mapped_data not applicable for {self.__class__.__name__}')
 
     @cached_property
     def parent_item_data(self):
+        return self.get_parent_data(self.mediatype, self.season, self.episode)
+
+    def get_parent_data(self, mediatype, season=None, episode=None, cache_refresh=None):
         from tmdbhelper.lib.items.database.baseitem_factories.factory import BaseItemFactory
-        try:
-            base_dbc = BaseItemFactory(self.mediatype)
-            base_dbc.mediatype = self.mediatype
-            base_dbc.tmdb_id = self.tmdb_id
-            base_dbc.tmdb_type = self.tmdb_type
-            base_dbc.season = self.season
-            base_dbc.episode = self.episode
-            base_dbc.common_apis = self.common_apis
-            base_dbc.connection = self.connection
-            base_dbc.cache = self.cache
-        except (TypeError, KeyError, IndexError, ValueError):
-            return
-        return base_dbc.data
+        lockname = '.'.join([f'{i}' for i in (self.tmdb_type, self.tmdb_id, season, episode) if i is not None])
+        with MutexPropLock(f'Database.ItemDetails.{lockname}.lockfile'):
+            try:
+                base_dbc = BaseItemFactory(mediatype)
+                base_dbc.mediatype = mediatype
+                base_dbc.tmdb_id = self.tmdb_id
+                base_dbc.tmdb_type = self.tmdb_type
+                base_dbc.season = season
+                base_dbc.episode = episode
+                base_dbc.cache_refresh = cache_refresh
+                base_dbc.common_apis = self.common_apis
+                base_dbc.connection = self.connection
+                base_dbc.cache = self.cache
+            except (TypeError, KeyError, IndexError, ValueError):
+                return
+            return base_dbc.data
 
     def get_unmapped_data(self):
         with self.connection.open():

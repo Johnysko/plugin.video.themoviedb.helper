@@ -1,6 +1,7 @@
 from tmdbhelper.lib.items.database.baseitem_factories.concrete_classes.tvshow import Tvshow
 from tmdbhelper.lib.files.ftools import cached_property
 from tmdbhelper.lib.addon.consts import SHORTER_EXPIRY
+from tmdbhelper.lib.files.locker import mutexlock
 
 
 class Season(Tvshow):
@@ -11,6 +12,8 @@ class Season(Tvshow):
 
     @property
     def online_data_kwgs(self):
+        if self.cache_refresh == 'basic':
+            return {'append_to_response': self.common_apis.tmdb_api.append_to_response_tvshow_simple}
         return {'append_to_response': self.common_apis.tmdb_api.append_to_response_tvshow}
 
     @property
@@ -34,6 +37,14 @@ class Season(Tvshow):
 
     @cached_property
     def parent_item_data(self):
+        return self.get_parent_item_data()
+
+    @property
+    def mutex_lockname(self):
+        return f'Database.ItemDetails.tv.{self.tmdb_id}.lockfile'
+
+    @mutexlock
+    def get_parent_item_data(self):
         try:
             base_dbc = Tvshow()
             base_dbc.mediatype = 'tvshow'
@@ -59,17 +70,39 @@ class Season(Tvshow):
 
     @property
     def cached_data_table(self):
-        """ FROM """
-        return (
-            f'baseitem LEFT JOIN {self.table} ON {self.table}.id = baseitem.id'
-            ' LEFT JOIN tvshow ON tvshow.id = season.tvshow_id'
-        )
+        return self.get_cached_data_table()
 
     @property
     def cached_data_keys(self):
+        return self.get_cached_data_keys()
+
+    @property
+    def cached_data_conditions(self):
+        return f'{super().cached_data_conditions}'
+
+    def get_cached_data_table(self):
+        """ FROM """
+        return (
+            f'baseitem INNER JOIN {self.table} ON {self.table}.id = baseitem.id'
+            ' LEFT JOIN tvshow ON tvshow.id = season.tvshow_id'
+        )
+
+    def get_cached_data_keys(self):
         """ SELECT """
-        additional_keys = ['tvshow.title AS tvshowtitle', 'tvshow.tagline as tagline']
-        return tuple([f'{self.table}.{k}' for k in self.keys] + additional_keys)
+        deniedlist_keys = ('plot', )
+        additional_keys = [
+            'tvshow.title AS tvshowtitle',
+            'tvshow.tagline as tagline',
+            'ifnull(season.plot, tvshow.plot) as plot',
+            (
+                '(    SELECT COUNT(episode.season_id) '
+                '     FROM episode WHERE episode.season_id=season.id '
+                '                    AND episode.premiered<=DATE("now")'
+                '     GROUP BY episode.season_id'
+                ') as totalepisodes'
+            )
+        ]
+        return tuple([f'{self.table}.{k}' for k in self.keys if k not in deniedlist_keys] + additional_keys)
 
     @cached_property
     def db_table_caches(self):

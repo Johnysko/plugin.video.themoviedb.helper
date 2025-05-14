@@ -6,141 +6,161 @@ msgid ""
 msgstr ""
 "Project-Id-Version: XBMC-Addons\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
-"POT-Creation-Date: 2025-05-02 17:05+0000\n"
-"PO-Revision-Date: 2025-05-04 11:08+0200\n"
-"Last-Translator: Johnysko\n"
-"Language-Team: Czech\n"
-"Language: cs_CZ\n"
+"POT-Creation-Date: 2014-10-26 17:05+0000\n"
+"PO-Revision-Date: 2025-05-07 17:36+0800\n"
+"Last-Translator: Wabisabi\n"
+"Language-Team: LANGUAGE\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
-"X-Generator: Poedit 3.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
 
 msgctxt "#30000"
 msgid "Arabic (United Arab Emirates)"
-msgstr "Arabština (Spojené arabské emiráty)"
+msgstr "阿拉伯语（阿拉伯联合酋长国）"
 
 msgctxt "#30001"
 msgid "Arabic (Saudi Arabia)"
-msgstr "Arabština (Saúdská Arábie)"
+msgstr "阿拉伯语（沙特阿拉伯）"
+
+#: /resources/tmdbhelper/lib/api/tmdb/methods/lists.py
+msgctxt "#32000"
+msgid "Unaired"
+msgstr "未播出"
 
 msgctxt "#30002"
 msgid "Belarusian (Belarus)"
-msgstr "Běloruština (Bělorusko)"
+msgstr "白俄罗斯语（白俄罗斯）"
 
 msgctxt "#30003"
 msgid "Bulgarian (Bulgaria)"
-msgstr "Bulharština (Bulharsko)"
+msgstr "保加利亚语（保加利亚）"
+
+#: /resources/settings.xml
+msgctxt "#32003"
+msgid "Preferred"
+msgstr "首选"
 
 msgctxt "#30004"
 msgid "Bengali (Bangladesh)"
-msgstr "Bengálština (Bangladéš)"
+msgstr "孟加拉语（孟加拉国）"
 
 msgctxt "#30005"
 msgid "Catalan (Spain)"
-msgstr "Katalánština (Španělsko)"
+msgstr "加泰罗尼亚语（西班牙）"
+
+#: /resources/settings.xml
+msgctxt "#32006"
+msgid "Supplement"
+msgstr "补充"
 
 msgctxt "#30006"
 msgid "Chamorro (Guam)"
-msgstr "Chamorro (Guam)"
+msgstr "查莫罗（关岛）"
+
+#: /resources/settings.xml
+msgctxt "#32008"
+msgid "Low"
+msgstr "低"
+
+#: /resources/settings.xml
+msgctxt "#32009"
+msgid "High"
+msgstr "高"
 
 msgctxt "#30007"
 msgid "Czech (Czech Republic)"
-msgstr "Čeština (Česká republika)"
+msgstr "捷克语（捷克共和国）"
 
 msgctxt "#30008"
 msgid "Danish (Denmark)"
-msgstr "Dánština (Dánsko)"
+msgstr "丹麦语（丹麦）"
 
 msgctxt "#30009"
 msgid "German (Austria)"
-msgstr "Němčina (Rakousko)"
+msgstr "德语（奥地利）"
 
 msgctxt "#30010"
 msgid "German (Switzerland)"
-msgstr "Němčina (Švýcarsko)"
+msgstr "德语（瑞士）"
 
 msgctxt "#30011"
 msgid "German (Germany)"
-msgstr "Němčina (Německo)"
+msgstr "德语（德国）"
 
 msgctxt "#30012"
 msgid "Greek (Greece)"
-msgstr "Řečtina (Řecko)"
+msgstr "希腊语（希腊）"
 
 msgctxt "#30013"
 msgid "English (Australia)"
-msgstr "Angličtina (Austrálie)"
+msgstr "英语（澳大利亚）"
 
 msgctxt "#30014"
 msgid "English (Canada)"
-msgstr "Angličtina (Kanada)"
+msgstr "英语（加拿大）"
 
 msgctxt "#30015"
 msgid "English (United Kingdom)"
-msgstr "Angličtina (Spojené království)"
+msgstr "英语（英国）"
 
 msgctxt "#30016"
 msgid "English (Ireland)"
-msgstr "Angličtina (Irsko)"
+msgstr "英语（爱尔兰）"
 
 msgctxt "#30017"
 msgid "English (New Zealand)"
-msgstr "Angličtina (Nový Zéland)"
+msgstr "英语（新西兰）"
 
 msgctxt "#30018"
 msgid "English (United States of America)"
-msgstr "Angličtina (Spojené státy americké)"
+msgstr "英语（美利坚合众国）"
 
 msgctxt "#30019"
 msgid "Esperanto (None)"
-msgstr "Esperanto (žádný)"
+msgstr "世界语（无）"
 
 msgctxt "#30020"
 msgid "Spanish (Spain)"
-msgstr "Španělština (Španělsko)"
+msgstr "西班牙语（西班牙）"
 
 msgctxt "#30021"
 msgid "Spanish (Mexico)"
-msgstr "Španělština (Mexiko)"
+msgstr "西班牙语（墨西哥）"
 
 msgctxt "#30022"
 msgid "Estonian (Estonia)"
-msgstr "Estonština (Estonsko)"
+msgstr "爱沙尼亚语（爱沙尼亚）"
 
 msgctxt "#30023"
 msgid "Basque (Spain)"
-msgstr "Baskičtina (Španělsko)"
+msgstr "巴斯克（西班牙）"
 
 msgctxt "#30024"
 msgid "Persian (Iran)"
-msgstr "Perština (Írán)"
+msgstr "波斯语（伊朗）"
 
 msgctxt "#30025"
 msgid "Finnish (Finland)"
-msgstr "Finština (Finsko)"
+msgstr "芬兰语（芬兰）"
 
 msgctxt "#30026"
 msgid "French (Canada)"
-msgstr "Francouzština (Kanada)"
+msgstr "法语（加拿大）"
 
 msgctxt "#30027"
 msgid "French (France)"
-msgstr "Francouzština (Francie)"
+msgstr "法语（法国）"
 
 msgctxt "#30028"
 msgid "Galician (Spain)"
-msgstr "Galicijština (Španělsko)"
+msgstr "加利西亚语（西班牙）"
 
 msgctxt "#30029"
 msgid "Hebrew (Israel)"
-msgstr "Hebrejština (Izrael)"
-
-#: /resources/settings.xml
-msgctxt "#32028"
-msgid "Use fanart.tv for widget artwork (slower)"
-msgstr "Použít fanart.tv pro obrázky ve widgetech (pomalejší načítání)"
+msgstr "希伯来语（以色列）"
 
 #: /resources/settings.xml
 msgctxt "#32029"
@@ -160,369 +180,223 @@ msgstr "Trakt API"
 #: /resources/settings.xml
 msgctxt "#32032"
 msgid "Download Players"
-msgstr "Stáhnout přehrávače"
+msgstr "下载播放器"
 
 #: /resources/settings.xml
 msgctxt "#32033"
 msgid "Default Players"
-msgstr "Výchozí přehrávače"
+msgstr "默认播放器"
 
 #: /resources/settings.xml
 msgctxt "#32034"
-msgid "Get watched indicators and episode counts (slower)"
-msgstr "Získat počet zhlédnutých a celkových epizod (pomalejší)"
-
-#: /resources/settings.xml
-msgctxt "#32035"
-msgid "Get tvshow watched episode counts from Trakt"
-msgstr "Získat počet zhlédnutých epizod z Traktu"
-
-#: /resources/settings.xml
-msgctxt "#32036"
-msgid "Bundled Players"
-msgstr "Zabudované přehrávače"
+msgid "Get watched indicators and episode counts"
+msgstr "获取观看指南和分集"
 
 #: /resources/settings.xml
 msgctxt "#32037"
 msgid "Use bundled players"
-msgstr "Použít zabudované přehrávače"
+msgstr "使用内置播放器"
 
 #: /resources/settings.xml
 msgctxt "#32038"
 msgid "Get additional details from the local Kodi library database"
-msgstr "Získej dodatečné informace z místní knihovny Kodi"
+msgstr "从 Kodi 本地媒体库数据库获取扩展元数据"
 
 #: /resources/settings.xml
-msgctxt "#32039"
-msgid "Kodi Library DB"
-msgstr "Kodi Library DB"
-
-#: /resources/lib/player.py
-msgctxt "#32040"
-msgid "Item not found."
-msgstr "Titul nenalezen."
-
-#: /resources/lib/player.py
-msgctxt "#32041"
-msgid "The plugin returned no results."
-msgstr "Doplněk vrátil nulové výsledky."
-
-#: /resources/lib/player.py
 msgctxt "#32042"
 msgid "Choose Action"
-msgstr "Vyber akci"
+msgstr "选择操作"
 
 #: /resources/lib/container.py
 msgctxt "#32043"
 msgid "Up Next"
-msgstr "Následuje"
+msgstr "下一个"
 
 #: /resources/lib/container.py
 msgctxt "#32044"
 msgid "Enter Search Query"
-msgstr "Zadej hledaný výraz"
+msgstr "输入搜索内容"
 
 #: /resources/lib/container.py
-msgctxt "#32045"
-msgid "Cache Refresh"
-msgstr "Obnovení cache paměti"
-
-#: /resources/lib/container.py
-msgctxt "#32047"
-msgid "Remove from Trakt Collection"
-msgstr "Odebrat ze sbírky Trakt"
-
-#: /resources/lib/container.py
-msgctxt "#32048"
-msgid "Add to Trakt Collection"
-msgstr "Přidat do sbírky Trakt"
-
-#: /resources/lib/container.py
-msgctxt "#32049"
-msgid "Remove from Trakt Watchlist"
-msgstr "Odebrat ze seznamu sledování na Trakt"
-
-#: /resources/lib/container.py
-msgctxt "#32050"
-msgid "Add to Trakt Watchlist"
-msgstr "Přidat ze seznamu sledování na Trakt"
-
-#: /resources/lib/container.py
-msgctxt "#32051"
-msgid "Remove from Trakt Watched History"
-msgstr "Odebrat z historie sledování na Trakt"
-
-#: /resources/lib/container.py
-msgctxt "#32052"
-msgid "Add to Trakt Watched History"
-msgstr "Přidat do historie sledování na Trakt"
-
-#: /resources/lib/container.py
-msgctxt "#32053"
-msgid "Refresh Cache"
-msgstr "Obnovit cache paměť"
-
-#: /resources/lib/downloader.py
 msgctxt "#32054"
 msgid "Would you like to clear existing players first?"
-msgstr "Chceš nejdříve vymazat existující přehrávače?"
+msgstr "是否要先清除现有播放器？"
 
 #: /resources/lib/downloader.py
 msgctxt "#32055"
 msgid "Authentication Failed."
-msgstr "Ověření se nezdařilo."
+msgstr "身份验证失败。"
 
 #: /resources/lib/downloader.py
 msgctxt "#32056"
 msgid "Either the username or password were invalid. Would you like to try again?"
-msgstr "Uživatelské jméno nebo heslo jsou neplatné. Chceš to zkusit znovu?"
+msgstr "用户名或密码无效。你想再试一次吗？"
 
 #: /resources/lib/downloader.py
 msgctxt "#32057"
 msgid "Retry"
-msgstr "Zkusit znovu"
+msgstr "重试"
 
 #: /resources/lib/downloader.py
 msgctxt "#32058"
 msgid "The provided URL is either invalid or inaccesible."
-msgstr "Tato adresa URL je neplatná nebo nedostupná."
+msgstr "提供的 URL 无效或不可访问。"
 
 #: /resources/lib/downloader.py
 msgctxt "#32059"
 msgid "Success!"
-msgstr "Úspěch!"
+msgstr "成功！"
 
 #: /resources/lib/downloader.py
 msgctxt "#32060"
 msgid "files extracted"
-msgstr "souborů rozbaleno"
+msgstr "提取文件"
 
 #: /resources/lib/player.py
 msgctxt "#32061"
 msgid "Play with"
-msgstr "Přehrát s"
+msgstr "播放"
 
 #: /resources/lib/context.py
-msgctxt "#32062"
-msgid "Successfully Added TMDb ID {0} to {1}"
-msgstr "TMDb ID {0} bylo úspěšně přidáno do {1}"
-
-#: /resources/lib/context.py
-msgctxt "#32063"
-msgid "Successfully Removed TMDb ID {0} from {1}"
-msgstr "TMDb ID {0} bylo úspěšně odebráno z {1}"
-
-#: /resources/lib/context.py
-msgctxt "#32064"
-msgid ""
-"Do you wish to remove {0} from your Trakt {1}?\n"
-"\n"
-"TMDb {2} ID {3}"
-msgstr ""
-"*Chcete odebrat {0} z vašeho seznamu Trakt {1}?\n"
-"\n"
-"TMDb {2} ID {3}"
-
-#: /resources/lib/context.py
-msgctxt "#32065"
-msgid ""
-"Do you wish to add {0} to your Trakt {1}?\n"
-"\n"
-"TMDb {2} ID {3}"
-msgstr ""
-"*Chcete přidat {0} do vašeho seznamu Trakt {1}?\n"
-"\n"
-"TMDb {2} ID {3}"
-
-#: /resources/settings.xml
 msgctxt "#32066"
 msgid "Debug logging"
-msgstr "Ladicí protokolování"
+msgstr "调试记录"
 
 #: /resources/settings.xml
-msgctxt "#32067"
-msgid "Fuzzy local library matching"
-msgstr "Přibližné porovnávání s místní knihovnou"
-
-#: /resources/settings.xml
-msgctxt "#32068"
-msgid "Allow fuzzy matches (ignore year) for movies"
-msgstr "Povolit přibližné shody (ignorovat rok) pro filmy"
-
-#: /resources/settings.xml
-msgctxt "#32069"
-msgid "Allow fuzzy matches (ignore year) for tvshows"
-msgstr "Povolit přibližné shody (ignorovat rok) pro seriály"
-
-#: /resources/lib/tmdb.py
 msgctxt "#32070"
 msgid "Male"
-msgstr "Muž"
+msgstr "男"
 
 #: /resources/lib/tmdb.py
 msgctxt "#32071"
 msgid "Female"
-msgstr "Žena"
-
-#: /resources/settings.xml
-msgctxt "#32072"
-msgid "Unaired Items"
-msgstr "Neodvysílané položky"
+msgstr "女"
 
 #: /resources/settings.xml
 msgctxt "#32073"
 msgid "Hide unaired movies"
-msgstr "Skrýt neodvysílané filmy"
+msgstr "隐藏未匹配电影"
 
 #: /resources/settings.xml
 msgctxt "#32074"
 msgid "Library Integration"
-msgstr "Integrace knihovny"
+msgstr "媒体库整合"
 
 #: /resources/settings.xml
 msgctxt "#32075"
 msgid "TV"
-msgstr "TV"
+msgstr "电视"
 
 #: /resources/settings.xml
 msgctxt "#32076"
 msgid "Update library after adding items"
-msgstr "Aktualizovat knihovnu po přidání položek"
+msgstr "添加项目后自动更新库"
 
 #: /resources/settings.xml
 msgctxt "#32077"
 msgid "Ignore folder creation checks"
-msgstr "Ignorovat kontroly vytváření složek"
+msgstr "忽略文件夹检查"
 
 #: /resources/lib/container/basedir.py
 msgctxt "#32078"
 msgid "Still to Watch"
-msgstr "Stále ke zhlédnutí"
-
-#: /resources/settings.xml
-msgctxt "#32079"
-msgid "System Use Only"
-msgstr "Pouze pro použití systémem"
+msgstr "待观看"
 
 #: /resources/settings.xml
 msgctxt "#32080"
 msgid "Other"
-msgstr "Ostatní"
+msgstr "其他"
 
 #: /resources/settings.xml
 msgctxt "#32081"
 msgid "Next page item"
-msgstr "Položka na další stránce"
-
-#: /resources/settings.xml
-msgctxt "#32082"
-msgid "Watchlist sort method"
-msgstr "Metoda třídění seznamu sledování"
-
-#: /resources/settings.xml
-msgctxt "#32083"
-msgid "Accounts"
-msgstr "Účty"
+msgstr "下一页项目"
 
 #: /resources/settings.xml
 msgctxt "#32084"
 msgid "Hide unaired episodes"
-msgstr "Skrýt neodvysílané epizody"
+msgstr "隐藏未匹配剧集"
 
+# "Flatten" 指将多季合并为单层列表，原翻译未体现“合并”逻辑，易误解为“全部展开”。
 #: /resources/settings.xml
 msgctxt "#32085"
 msgid "Flatten seasons"
-msgstr "Zobrazení všech dílů bez jednotlivých sezón"
+msgstr "合并季数显示"
 
 #: /resources/settings.xml
 msgctxt "#32086"
 msgid "Auto-update library and add new/missing episodes"
-msgstr "Automaticky aktualizuj knihovnu a přidej nové/chybějící epizody"
-
-#: /resources/settings.xml
-msgctxt "#32087"
-msgid "Use resolvedURL method for suppressing strm next playlist error"
-msgstr "Použít metodu resolvedURL k potlačení chyby dalšího seznamu strm"
+msgstr "自动更新库并添加新的/缺失的剧集"
 
 #: /resources/settings.xml
 msgctxt "#32088"
 msgid "Navigation"
-msgstr "Navigace"
+msgstr "导航"
 
 #: /resources/settings.xml
 msgctxt "#32089"
 msgid "Select Action"
-msgstr "Vybrat příkaz"
+msgstr "选择操作"
 
 #: /resources/settings.xml
 msgctxt "#32090"
 msgid "Content"
-msgstr "Obsah"
+msgstr "内容"
 
 #: /resources/settings.xml
 msgctxt "#32091"
 msgid "Special season folders"
-msgstr "Složky speciálních sezón"
+msgstr "剧集特别篇文件夹"
 
 #: /resources/settings.xml
 msgctxt "#32092"
 msgid "Widgets"
-msgstr "Widgety"
+msgstr "小组件"
 
 #: /resources/settings.xml
 msgctxt "#32093"
 msgid "Next episodes sort method"
-msgstr "Metoda řazení dalších epizod"
+msgstr "下一集排序方式"
 
 #: /resources/settings.xml
-msgctxt "#32094"
-msgid "Prioritise local files over default player"
-msgstr "Upřednostňovat místní soubory před výchozím přehrávačem"
-
-#: /resources/lib/traktapi.py
 msgctxt "#32095"
 msgid "Enter the code"
-msgstr "Zadej kód"
+msgstr "输入代码"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32096"
 msgid "Go to [B]https://trakt.tv/activate[/B]"
-msgstr "Jdi na [B]https://trakt.tv/activate[/B]"
+msgstr "转到[B]https://trakt.tv/activate[/B]"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32097"
 msgid "Trakt Authentication"
-msgstr "Ověření účtu Trakt"
-
-#: /resources/lib/container.py
-msgctxt "#32098"
-msgid "Exists"
-msgstr "Existuje"
+msgstr "Trakt 身份验证"
 
 #: /resources/lib/container.py
 msgctxt "#32099"
 msgid "A value has already been set for this parameter"
-msgstr "Hodnota pro tento parametr už byla zadána"
+msgstr "已为此参数设置值"
 
 #: /resources/lib/container.py
 msgctxt "#32100"
 msgid "Do you wish to clear the existing items or add more?"
-msgstr "Přejete si vymazat stávající položky, nebo přidat další?"
+msgstr "您希望清除现有项目还是添加更多项目？"
 
 #: /resources/lib/container.py
 msgctxt "#32101"
 msgid "Clear Items"
-msgstr "Vyčistit položky"
+msgstr "清理项目"
 
 #: /resources/lib/container.py
 msgctxt "#32102"
 msgid "Add Items"
-msgstr "Přidat položky"
+msgstr "增加项目"
 
 #: /resources/lib/container.py
 msgctxt "#32103"
 msgid "No Value Added"
-msgstr "Žádná hodnota nebyla přidána"
+msgstr "未添加值"
 
 #: /resources/lib/container.py
 msgctxt "#32104"
@@ -530,303 +404,143 @@ msgid ""
 "TMDb ID for {} not found or none selected.\n"
 "Do you want to add another value?"
 msgstr ""
-"TMDb ID pro {} nenalezen nebo nebyl vybrán.\n"
-"Chceš přidat další hodnotu?"
-
-#: /resources/lib/container.py
-msgctxt "#32105"
-msgid "Do you want to add another value?"
-msgstr "Chceš přidat další hodnotu?"
-
-#: /resources/lib/container.py
-msgctxt "#32106"
-msgid "Added"
-msgstr "Přidáno"
+"{} 的 TMDb ID 未找到或未选择。\n"
+"是否要添加其他值？"
 
 #: /resources/lib/container.py
 msgctxt "#32107"
 msgid "Set Match Method"
-msgstr "Nastavit metodu shody"
+msgstr "匹配方式"
 
 #: /resources/lib/container.py
 msgctxt "#32108"
 msgid "Choose matching method for parameters with multiple values."
-msgstr "Vyberte metodu shody pro parametry s více hodnotami."
+msgstr "为具有多个值的参数选择匹配方法。"
 
 #: /resources/lib/container.py
 msgctxt "#32109"
 msgid "Match ANY Value"
-msgstr "Jakákoliv shoda"
+msgstr "匹配任意值"
 
 #: /resources/lib/container.py
 msgctxt "#32110"
 msgid "Match ALL Values"
-msgstr "Celková shoda"
+msgstr "匹配所有值"
 
 #: /resources/lib/container.py
 msgctxt "#32111"
 msgid "Select Items"
-msgstr "Vybrat položky"
+msgstr "选择项目"
 
 #: /resources/lib/container.py
 msgctxt "#32112"
 msgid "Select Genres"
-msgstr "Vybrat žánry"
+msgstr "选择类型"
 
 #: /resources/lib/container.py
 msgctxt "#32113"
 msgid "Also accepts X days relative from today in the format T-X or T+X (e.g. T-10 is ten days ago)"
-msgstr "Funguje také jako počet dní od dneška. Ve formátu T-X or T+X (např. T-10 je 10 dní zpět)"
+msgstr "距今 X 天，格式为 T-X 或 T+X（例如 T-10 是十天前）"
 
 #: /resources/lib/container.py
 msgctxt "#32114"
 msgid "Enter"
-msgstr "Zadej"
-
-#: /resources/lib/container.py
-msgctxt "#32115"
-msgid "Company"
-msgstr "Společnost"
-
-#: /resources/lib/container.py
-msgctxt "#32116"
-msgid "Network"
-msgstr "Síť"
+msgstr "进入"
 
 #: /resources/lib/container.py
 msgctxt "#32117"
 msgid "Keyword"
-msgstr "Klíčové slovo"
-
-#: /resources/lib/container.py
-msgctxt "#32118"
-msgid "Person"
-msgstr "Osoba"
+msgstr "关键词"
 
 #: /resources/lib/container.py
 msgctxt "#32119"
 msgid "Select Release Types"
-msgstr "Vyber typ vydání"
+msgstr "类型"
 
 #: /resources/lib/container.py
 msgctxt "#32120"
 msgid "Select Region for Release"
-msgstr "Vyber region vydání"
+msgstr "区域"
 
 #: /resources/lib/container.py
 msgctxt "#32121"
 msgid "Clear Search History"
-msgstr "Vymazat historii hledání"
+msgstr "清除搜索历史记录"
 
 #: /resources/lib/context.py
 msgctxt "#32122"
 msgid "XBMCVFS reports unable to create path"
-msgstr "XBMCVFS hlášení nemohlo vytvořit cestu"
+msgstr "XBMCVFS 报告无法创建路径"
 
 #: /resources/lib/context.py
 msgctxt "#32123"
 msgid "If error persists and the folders are created correctly, please disable folder path creation checking in TMDBHelper settings."
-msgstr "Pokud chyba přetrvává a složky jsou vytvořeny správně, prosím zakažte kontrolu vytváření cest ke složkám v nastavení TMDB Helper."
-
-#: /resources/lib/context.py
-msgctxt "#32124"
-msgid "Adding"
-msgstr "Přidávám"
+msgstr "如果错误仍然存在并且文件夹创建正确，请在 TMDBHelper 设置中禁用文件夹路径检查。"
 
 #: /resources/lib/context.py
 msgctxt "#32125"
 msgid "Add Trakt list to Kodi library"
-msgstr "Přidat seznam Trakt do knihovny Kodi"
+msgstr "添加 Trakt 列表到 Kodi 媒体库"
 
 #: /resources/lib/context.py
 msgctxt "#32126"
 msgid "Are you sure you want to add this Trakt list to your Kodi library?"
-msgstr "Jsi si jistý, že chceš přidat tento Trakt seznam do své Kodi knihovny?"
+msgstr "你确定要将这个 Trakt 列表添加到你的 Kodi 媒体库中吗？"
 
 #: /resources/lib/context.py
-msgctxt "#32127"
-msgid "by user"
-msgstr "od uživatele"
-
-#: /resources/lib/context.py
-msgctxt "#32128"
-msgid "This list contains"
-msgstr "Tento seznam obsahuje"
-
-#: /resources/lib/context.py
-msgctxt "#32129"
-msgid "items"
-msgstr "položky"
-
-#: /resources/settings.xml
 msgctxt "#32130"
 msgid "Auto-update library at time"
-msgstr "Automaticky aktualizovat knihovnu v čase"
+msgstr "定时自动更新媒体库"
 
 #: /resources/settings.xml
 msgctxt "#32131"
 msgid "Auto-update library from Trakt list(s)"
-msgstr "Automaticky aktualizovat knihovnu ze seznam/ů Trakt"
+msgstr "定时从 Trakt 列表中更新媒体库"
 
 #: /resources/lib/script.py
 msgctxt "#32132"
 msgid "Do you wish to update the library from the Trakt list(s) now?"
-msgstr "Chceš nyní aktualizovat knihovnu ze seznam/ů Trakt?"
+msgstr "您想现在从 Trakt 列表中更新媒体库吗？"
 
 #: /resources/lib/script.py
 msgctxt "#32133"
 msgid "Select List(s)"
-msgstr "Vybrat seznam/y"
-
-#: /resources/settings.xml
-msgctxt "#32134"
-msgid "User slug"
-msgstr "Uživatelská část URL(slug)"
-
-#: /resources/lib/traktapi.py
-msgctxt "#32135"
-msgid "Successfully removed {} {} from {} list."
-msgstr "Úspěšně odstraněno {} {} z tohoto {} seznamu."
-
-#: /resources/lib/traktapi.py
-msgctxt "#32136"
-msgid "Successfully added {} {} to {} list."
-msgstr "Úspěšně přidáno {} {} do tohoto {} seznamu."
-
-#: /resources/lib/traktapi.py
-msgctxt "#32137"
-msgid "Failed to remove {} {} from {} list."
-msgstr "Nepodařilo se odebrat {} {} z toho {} seznamu."
-
-#: /resources/lib/traktapi.py
-msgctxt "#32138"
-msgid "Failed to add {} {} to {} list."
-msgstr "Nepodařilo se přidat {} {} z tohoto {} seznamu."
-
-#: /resources/lib/traktapi.py
-msgctxt "#32139"
-msgid "Remove from Trakt list"
-msgstr "Odebrat ze seznamu Trakt"
-
-#: /resources/lib/traktapi.py
-msgctxt "#32140"
-msgid "Add to Trakt list"
-msgstr "Přidat do seznamu Trakt"
-
-#: /resources/lib/traktapi.py
-msgctxt "#32141"
-msgid "Create new list..."
-msgstr "Vytvořit nový seznam..."
+msgstr "选择列表"
 
 #: /resources/settings.xml
 msgctxt "#32142"
 msgid "Hide watched items"
-msgstr "Skrýt zhlédnuté položky"
+msgstr "隐藏观看项目"
 
 #: /resources/lib/context.py
-msgctxt "#32143"
-msgid "Cached details for {} successfully refreshed!"
-msgstr "Cachované detaily pro {} úspěšně obnoveny!"
-
-#: /resources/lib/context.py
-msgctxt "#32144"
-msgid "Refresh TheMovieDb Details"
-msgstr "Obnovit podrobnosti z TheMovieDb"
-
-#: /addon.xml
-msgctxt "#32145"
-msgid "TMDbHelper Options"
-msgstr "TMDbHelper Nastavení"
-
-#: /addon.xml
-msgctxt "#32146"
-msgid "Play using (TMDbHelper)"
-msgstr "Přehrát pomocí (TMDbHelper)"
-
-#: /addon.xml
-msgctxt "#32147"
-msgid "Browse seasons (TMDbHelper)"
-msgstr "Procházet sezóny (TMDbHelper)"
-
-#: /addon.xml
-msgctxt "#32148"
-msgid "Add/Remove from Trakt Watchlist"
-msgstr "Přidat/Odebrat ze seznamu sledování na Trakt"
-
-#: /addon.xml
-msgctxt "#32149"
-msgid "Add/Remove from Trakt History"
-msgstr "Přidat/Odebrat z historie na Trakt"
-
-#: /addon.xml
-msgctxt "#32150"
-msgid "Add/Remove from Trakt Collection"
-msgstr "Přidat/Odebrat ze sbírky Trakt"
-
-#: /addon.xml
-msgctxt "#32151"
-msgid "Add to Kodi Library"
-msgstr "Přidat do knihovny Kodi"
-
-#: /addon.xml
-msgctxt "#32152"
-msgid "Remove from list"
-msgstr "Odebrat ze seznamu"
-
-#: /addon.xml
-msgctxt "#32153"
-msgid "Refresh cached details"
-msgstr "Obnovit cachované podrobnosti"
-
-#: /resources/settings.xml
 msgctxt "#32154"
 msgid "Update library now"
-msgstr "Aktualizovat knihovnu"
-
-#: /resources/settings.xml
-msgctxt "#32155"
-msgid "Next Aired (Library)"
-msgstr "Příští vysílání (Knihovna)"
+msgstr "更新媒体库"
 
 #: /resources/settings.xml
 msgctxt "#32156"
 msgid "Next aired library calendar links to local tvshow"
-msgstr "Kalendář příštího vysílání v knihovně odkazuje na místní seriál"
-
-#: /resources/lib/context.py
-msgctxt "#32157"
-msgid "Unable to find TMDb ID for item."
-msgstr "Nebylo možné najít TMDb ID pro položku."
-
-#: /resources/settings.xml
-msgctxt "#32158"
-msgid "Automatically use player if only one available"
-msgstr "Automaticky použít přehrávač, pokud je k dispozici pouze jeden"
-
-#: /resources/lib/container.py
-msgctxt "#32159"
-msgid "Select Original Language"
-msgstr "Vybrat původní jazyk"
+msgstr "媒体库播出节目表关联当地剧集"
 
 #: /resources/lib/context.py
 msgctxt "#32160"
 msgid "Adding {} - {} to library..."
-msgstr "Přidávám {} - {} do knihovny..."
+msgstr "添加 {} - {} 到媒体库。"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32161"
 msgid "Do you wish to update the library with this list now?"
-msgstr "Chceš aktualizovat knihovnu s tímto seznamem?"
+msgstr "是否立即使用此列表更新媒体库？"
 
 #: /resources/settings.xml
 msgctxt "#32162"
 msgid "Automatically play local files"
-msgstr "Automaticky pouštět lokální soubory"
+msgstr "自动播放本地文件"
 
 #: /resources/settings.xml
 msgctxt "#32163"
 msgid "Use fanart.tv for service monitor artwork"
-msgstr "Použít fanart.tv pro vizuály služby"
+msgstr "使用 fanart.tv 获取艺术作品"
 
 #: /resources/lib/context.py
 msgctxt "#32164"
@@ -834,667 +548,613 @@ msgid ""
 "Adding Trakt lists to library is limited to [B]{}[/B] TV Shows and [B]{}[/B] Movies per list.\n"
 "This limit is set to ensure that the APIs providing data for free are respected."
 msgstr ""
-"Přidávání Trakt seznamů do knihovny je omezeno na [B]{}[/B] seriálů a [B]{}[/B] filmů na seznam.\n"
-"Toto omezení je nastaveno s cílem respektovat API rozhraní, která poskytují data zdarma."
-
-#: /resources/lib/context.py
-msgctxt "#32165"
-msgid "List length exceeds limits. Skipping..."
-msgstr "Délka seznamu přesahuje limit. Přeskakuji..."
+"向库中添加 Trakt 列表仅限于每个列表 [B]{}[/B]个电视节目和 [B]{}[/B] 个电影。\n"
+"设置此限制是为了确保免费提供数据的 API 得到尊重。"
 
 #: /resources/lib/context.py
 msgctxt "#32166"
 msgid "Adding items to library..."
-msgstr "Přidávám tituly do knihovny..."
+msgstr "正在添加项目到媒体库..."
 
 #: /resources/lib/context.py
 msgctxt "#32167"
 msgid "Updating"
-msgstr "Aktualizuji"
+msgstr "正在更新"
 
 #: /resources/lib/libraryupdate.py
 msgctxt "#32168"
 msgid "[B]{}[/B] by user [B]{}[/B]"
-msgstr "[B]{}[/B] od uživatele [B]{}[/B]"
+msgstr "[B]{}[/B] by user [B]{}[/B]"
 
 #: /resources/settings.xml
 msgctxt "#32169"
 msgid "Logout of Trakt account..."
-msgstr "Odhlásit z účtu Trakt..."
+msgstr "注销 Trakt 帐户..."
 
 #: /resources/lib/libraryupdate.py
 msgctxt "#32170"
 msgid "[B][COLOR=red]Warning[/COLOR][/B] This list contains [B]{}[/B] TV Shows and [B]{}[/B] Movies"
-msgstr "[B][COLOR=red]Varování[/COLOR][/B] Tento seznam obsahuje [B]{}[/B] seriály a [B]{}[/B] filmy"
+msgstr "[B][COLOR=red]警告[/COLOR][/B] 此列表包含[B]{}[/B]剧集和 [B]{}[/B] 电影"
 
 #: /resources/lib/libraryupdate.py
 msgctxt "#32171"
 msgid "[B][COLOR=red]Warning[/COLOR][/B] This list contains {} items"
-msgstr "[B][COLOR=red]Varování[/COLOR][/B] Tento seznam obsahuje {} položek"
+msgstr "[B][COLOR=red]警告[/COLOR][/B] 此列表包含 {} 项目"
 
 #: /resources/lib/constants.py
 msgctxt "#32172"
 msgid "People"
-msgstr "Lidé"
+msgstr "人员"
 
 #: /resources/lib/constants.py
 msgctxt "#32173"
 msgid "Randomised"
-msgstr "Náhodné"
+msgstr "随机"
 
 #: /resources/lib/constants.py
 msgctxt "#32174"
 msgid "Discover"
-msgstr "Prozkoumat"
+msgstr "发现"
 
 #: /resources/lib/plugin.py
 msgctxt "#32175"
 msgid "Popular"
-msgstr "Populární"
+msgstr "流行"
 
 #: /resources/lib/plugin.py
 msgctxt "#32176"
 msgid "Top Rated"
-msgstr "Nejlépe hodnocené"
+msgstr "高分"
 
 #: /resources/lib/plugin.py
 msgctxt "#32177"
 msgid "Upcoming"
-msgstr "Nadcházející"
+msgstr "即将到来"
 
 #: /resources/lib/plugin.py
 msgctxt "#32178"
 msgid "Trending Today"
-msgstr "Dnešní trendy"
+msgstr "今日趋势"
 
 #: /resources/lib/plugin.py
 msgctxt "#32179"
 msgid "Trending This Week"
-msgstr "Týdenní trendy"
+msgstr "本周趋势"
 
 #: /resources/lib/plugin.py
 msgctxt "#32180"
 msgid "In Theatres"
-msgstr "V kinech"
+msgstr "在剧场"
 
 #: /resources/lib/plugin.py
 msgctxt "#32181"
 msgid "Airing Today"
-msgstr "Vysíláno dnes"
+msgstr "今日播放"
 
 #: /resources/lib/plugin.py
 msgctxt "#32182"
 msgid "Currently Airing"
-msgstr "Aktuálně vysílané"
+msgstr "正在播放"
 
 #: /resources/lib/plugin.py
 msgctxt "#32183"
 msgid "Next Aired Library"
-msgstr "Knihovna příštího vysílání"
+msgstr "播放媒体库"
 
 #: /resources/lib/plugin.py
 msgctxt "#32184"
 msgid "Highest Revenue"
-msgstr "Nejvyšší tržby"
+msgstr "最高票房"
 
 #: /resources/lib/plugin.py
 msgctxt "#32185"
 msgid "Most Voted"
-msgstr "Nejvíce hodnocené"
+msgstr "最高人气"
 
 #: /resources/lib/plugin.py
 msgctxt "#32186"
 msgid "All"
-msgstr "Vše"
+msgstr "所有"
 
 #: /resources/lib/plugin.py
 msgctxt "#32187"
 msgid "Collections"
-msgstr "Sbírky"
+msgstr "集合"
 
 #: /resources/lib/plugin.py
 msgctxt "#32188"
 msgid "Reviews"
-msgstr "Recenze"
+msgstr "评论"
 
 #: /resources/lib/plugin.py
 msgctxt "#32189"
 msgid "TV Networks"
-msgstr "TV Stanice"
+msgstr "电视网络"
 
 #: /resources/lib/plugin.py
 msgctxt "#32190"
 msgid "Movie Studios"
-msgstr "Filmová studia"
+msgstr "电影公司"
 
 #: /resources/lib/plugin.py
 msgctxt "#32191"
 msgid "Images"
-msgstr "Obrázky"
+msgstr "图像"
 
 #: /resources/lib/plugin.py
 msgctxt "#32192"
 msgid "Collection"
-msgstr "Sbírka"
+msgstr "合集"
 
 #: /resources/lib/plugin.py
 msgctxt "#32193"
 msgid "Watchlist"
-msgstr "Seznam sledování"
+msgstr "观看列表"
 
 #: /resources/lib/plugin.py
 msgctxt "#32194"
 msgid "Your Recently Watched"
-msgstr "Tvoje nedávno sledované"
+msgstr "您最近观看的"
 
 #: /resources/lib/plugin.py
 msgctxt "#32195"
 msgid "Your Most Watched"
-msgstr "Tvoje nejvíce sledované"
+msgstr "您最受关注的"
 
 #: /resources/lib/plugin.py
 msgctxt "#32196"
 msgid "Your In-Progress"
-msgstr "Tvoje rozkoukané"
+msgstr "您进行中的"
 
 #: /resources/lib/plugin.py
 msgctxt "#32197"
 msgid "Your Next Episodes"
-msgstr "Tvoje další epizody"
+msgstr "您的下一集"
 
 #: /resources/lib/plugin.py
 msgctxt "#32198"
 msgid "Recommended For You"
-msgstr "Doporučeno pro tebe"
+msgstr "为您推荐"
 
 #: /resources/lib/plugin.py
 msgctxt "#32199"
 msgid "Based on Recently Watched"
-msgstr "Na základě nedávno zhlédnutého"
+msgstr "基于最近观看"
 
 #: /resources/lib/plugin.py
 msgctxt "#32200"
 msgid "Based on Most Watched"
-msgstr "Na základě nejvíce sledovaného"
+msgstr "基于最受关注"
 
 #: /resources/lib/plugin.py
 msgctxt "#32201"
 msgid "Your"
-msgstr "Tvoje"
+msgstr "您的"
 
 #: /resources/lib/plugin.py
 msgctxt "#32202"
 msgid "Airing This Week"
-msgstr "Vysílá se tento týden"
+msgstr "本周上映"
 
 #: /resources/lib/plugin.py
 msgctxt "#32203"
 msgid "Calendar"
-msgstr "Kalendář"
+msgstr "节目表"
 
 #: /resources/lib/plugin.py
 msgctxt "#32204"
 msgid "Trending"
-msgstr "Trendy"
+msgstr "趋势"
 
 #: /resources/lib/plugin.py
 msgctxt "#32205"
 msgid "Most Played"
-msgstr "Nejvíce přehrávané"
+msgstr "最多播放"
 
 #: /resources/lib/plugin.py
 msgctxt "#32206"
 msgid "Anticipated"
-msgstr "Očekávané"
+msgstr "预测"
 
 #: /resources/lib/plugin.py
 msgctxt "#32207"
 msgid "Top 10 Box Office"
-msgstr "Top 10 v návštěvnosti kin"
+msgstr "票房十佳"
 
 #: /resources/lib/plugin.py
 msgctxt "#32208"
 msgid "Trending Lists"
-msgstr "Trendy seznamy"
+msgstr "趋势列表"
 
 #: /resources/lib/plugin.py
 msgctxt "#32209"
 msgid "Popular Lists"
-msgstr "Populární seznamy"
+msgstr "流行列表"
 
 #: /resources/lib/plugin.py
 msgctxt "#32210"
 msgid "Liked Lists"
-msgstr "Oblíbené seznamy"
+msgstr "人气列表"
 
 #: /resources/lib/plugin.py
 msgctxt "#32211"
 msgid "Your Lists"
-msgstr "Tvoje seznamy"
+msgstr "您的列表"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32212"
 msgid "Trakt user account logout"
-msgstr "Odhlásit uživatelský účet Trakt"
+msgstr "Trakt 用户帐户注销"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32213"
 msgid "Do you wish to logout of your Trakt account?"
-msgstr "Chceš se odhlásit ze svého Trakt účtu?"
+msgstr "您想注销您的 Trakt 帐户吗？"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32214"
 msgid "Trakt access token not found"
-msgstr "Přístupový token k účtu Trakt nenalezen"
+msgstr "未找到 Trakt 访问令牌"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32215"
 msgid "Logout failed!"
-msgstr "Odhlášení selhalo!"
+msgstr "注销失败！"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32216"
 msgid "Successfully logged out of Trakt user account"
-msgstr "Úspěšné odhlášení z účtu Trakt"
+msgstr "成功注销Trakt用户帐户"
 
 #: /resources/lib/script.py
-msgctxt "#32217"
-msgid "No artwork found for {} ID {}"
-msgstr "Nenalezen obrázek pro {} ID {}"
-
-#: /resources/lib/script.py
-msgctxt "#32218"
-msgid ""
-"Artwork found for {} ID {}\n"
-"{}"
-msgstr ""
-"Nalezen obrázek pro {} ID {}\n"
-"{}"
-
-#: /resources/lib/fanarttv.py
-msgctxt "#32219"
-msgid "Language {} | {} likes | ID {}"
-msgstr "Jazyk {} | {} líbí se | ID {}"
-
-#: /resources/lib/script.py
-msgctxt "#32220"
-msgid "Select artwork"
-msgstr "Vybrat obrázek"
-
-#: /resources/lib/script.py
-msgctxt "#32221"
-msgid "Refresh all artwork"
-msgstr "Obnovit všechny obrázky"
-
-#: /resources/lib/listitem.py
 msgctxt "#32222"
 msgid "Manage artwork"
-msgstr "Spravovat obrázky"
+msgstr "管理艺术作品"
 
 #: /resources/lib/plugin.py
 msgctxt "#32223"
 msgid "Recommended"
-msgstr "Doporučeno"
+msgstr "建议"
 
 #: /resources/lib/plugin.py
 msgctxt "#32224"
 msgid "Similar"
-msgstr "Podobné"
+msgstr "类似的"
 
 #: /resources/lib/plugin.py
 msgctxt "#32225"
 msgid "Crew"
-msgstr "Štáb"
+msgstr "制作组"
 
 #: /resources/lib/plugin.py
 msgctxt "#32226"
 msgid "Posters"
-msgstr "Plakáty"
+msgstr "海报"
 
 #: /resources/lib/plugin.py
 msgctxt "#32227"
 msgid "Cast in Movies"
-msgstr "Hrál/a ve filmech"
+msgstr "电影主演阵容"
 
 #: /resources/lib/plugin.py
 msgctxt "#32228"
 msgid "Cast in TV Shows"
-msgstr "Hrál/a v seriálech"
+msgstr "电视节目主演阵容"
 
 #: /resources/lib/plugin.py
 msgctxt "#32229"
 msgid "Crew in Movies"
-msgstr "Štáb ve filmech"
+msgstr "电影制作团队"
 
 #: /resources/lib/plugin.py
 msgctxt "#32230"
 msgid "Crew in TV Shows"
-msgstr "Štáb v seriálech"
+msgstr "电视节目制作团队"
 
 #: /resources/lib/plugin.py
 msgctxt "#32231"
 msgid "Thumbs"
-msgstr "Náhledový obrázek"
+msgstr "缩略图"
 
 #: /resources/lib/plugin.py
 msgctxt "#32232"
 msgid "In Trakt Lists"
-msgstr "V seznamech Trakt"
+msgstr "在 Trakt 列表中"
 
 #: /resources/lib/listitem.py
 msgctxt "#32233"
 msgid "Refresh details"
-msgstr "Obnovit detaily"
+msgstr "刷新详细信息"
 
 #: /resources/lib/script.py
-msgctxt "#32234"
-msgid "Refreshed details for {} ID {}"
-msgstr "Obnoveny detaily pro {} ID {}"
-
-#: /resources/lib/listitem.py
 msgctxt "#32235"
 msgid "Browse lists"
-msgstr "Procházet seznamy"
+msgstr "浏览列表"
 
 #: /resources/lib/players.py
 msgctxt "#32236"
 msgid "Select Item"
-msgstr "Vybrat položku"
+msgstr "选择项目"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32237"
 msgid "Clear Discover History"
-msgstr "Vymazat historii prozkoumávání"
-
-#: /resources/lib/userdiscover.py
-msgctxt "#32238"
-msgid "Discover {}"
-msgstr "Prozkoumat {}"
+msgstr "清除探索历史"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32239"
 msgid "Match"
-msgstr "Shoda"
+msgstr "匹配"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32240"
 msgid "Sorting"
-msgstr "Řazení"
+msgstr "排序"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32241"
 msgid "Save As"
-msgstr "Uložit jako"
+msgstr "保存为"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32242"
 msgid "Premiere"
-msgstr "Premiéra"
+msgstr "首映"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32243"
 msgid "Theatrical (limited)"
-msgstr "Kina (omezené)"
+msgstr "剧场版（限量版）"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32244"
 msgid "Theatrical"
-msgstr "Kina"
+msgstr "剧场版"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32245"
 msgid "Digital"
-msgstr "Digitální"
+msgstr "数字"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32246"
 msgid "Physical"
-msgstr "Fyzické nosiče"
+msgstr "物理"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32247"
 msgid "With Cast"
-msgstr "Herci"
+msgstr "含主演"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32248"
 msgid "With Crew"
-msgstr "Štáb"
+msgstr "含制作团队"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32249"
 msgid "With People"
-msgstr "Lidé"
+msgstr "含其他人员"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32250"
 msgid "Primary Release Year"
-msgstr "Rok původního vydání"
+msgstr "主要发布年份"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32251"
 msgid "Primary Release Date After"
-msgstr "Původní vydání po datu"
+msgstr "主要发布之后"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32252"
 msgid "Primary Release Date Before"
-msgstr "Původní vydání před datem"
+msgstr "主要发布之前"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32253"
 msgid "Release Date After"
-msgstr "Datum vydání po"
+msgstr "发布之后"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32254"
 msgid "Release Date Before"
-msgstr "Datum vydání před"
+msgstr "发布之前"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32255"
 msgid "Release Type"
-msgstr "Formát vydání"
+msgstr "发布类型"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32256"
 msgid "Release Region"
-msgstr "Region vydání"
+msgstr "发布区域"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32257"
 msgid "With Networks"
-msgstr "Sítě"
+msgstr "使用网络"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32258"
 msgid "Air Date After"
-msgstr "Datum vysílání po"
+msgstr "播出之后"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32259"
 msgid "Air Date Before"
-msgstr "Datum vysílání před"
+msgstr "播出之前"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32260"
 msgid "First Air Date After"
-msgstr "První vysílání po datu"
+msgstr "首播后"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32261"
 msgid "First Air Date Before"
-msgstr "První vysílání před datem"
+msgstr "首播前"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32262"
 msgid "First Air Year"
-msgstr "Datum původního vysílání"
+msgstr "首播年"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32263"
 msgid "With Genres"
-msgstr "Se žánry"
+msgstr "含类型"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32264"
 msgid "Without Genres"
-msgstr "Bez žánrů"
+msgstr "无类型"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32265"
 msgid "With Companies"
-msgstr "Se Společnostmi"
+msgstr "与公司"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32266"
 msgid "Without"
-msgstr "Bez"
+msgstr "除了"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32267"
 msgid "Without Keywords"
-msgstr "Bez klíčových slov"
+msgstr "无关键字"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32268"
 msgid "With Keywords"
-msgstr "S klíčovými slovy"
+msgstr "含关键字"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32269"
 msgid "With Original Language"
-msgstr "S originálním jazykem"
+msgstr "含原始语言"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32270"
 msgid "Vote Count ( > or = )"
-msgstr "Počet hlasů ( > nebo = )"
+msgstr "投票数大于等于"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32271"
 msgid "Vote Count ( < or = )"
-msgstr "Počet hlasů ( < or = )"
+msgstr "投票数小于等于"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32272"
 msgid "Vote Average ( > or = )"
-msgstr "Průměr hlasů ( > nebo = )"
+msgstr "平均投票大于等于"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32273"
 msgid "Vote Average ( < or = )"
-msgstr "Průměr hlasů ( < or = )"
+msgstr "平均投票小于等于"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32274"
 msgid "Runtime (Minutes) ( > or = )"
-msgstr "Stopáž (Minuty) ( > nebo = )"
+msgstr "时长大于等于（分钟）"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32275"
 msgid "Runtime (Minutes) ( < or = )"
-msgstr "Stopáž (Minuty) ( < nebo = )"
+msgstr "时长小于等于（分钟）"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32276"
 msgid "Search for"
-msgstr "Hledat"
+msgstr "搜索"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32277"
 msgid "Add Rule"
-msgstr "Přidat pravidlo"
+msgstr "添加规则"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32278"
 msgid "Enter Network IDs separated with \" / \""
-msgstr "Zadejte ID sítí oddělená \" / \""
+msgstr "网络 ID 使用 \" / \"分隔"
 
 #: /resources/lib/userdiscover.py
 msgctxt "#32279"
 msgid "Enter Year"
-msgstr "Zadej rok"
+msgstr "输入年份"
 
 #: /resources/lib/basedir.py
 msgctxt "#32280"
 msgid "Last Fortnight"
-msgstr "Minulých 14 dní"
+msgstr "上半个月"
 
 #: /resources/lib/basedir.py
 msgctxt "#32281"
 msgid "Last Week"
-msgstr "Minulý týden"
+msgstr "近一周"
 
 #: /resources/lib/basedir.py
 msgctxt "#32282"
 msgid "Yesterday"
-msgstr "Včera"
+msgstr "去年"
 
 #: /resources/lib/basedir.py
 msgctxt "#32283"
 msgid "Next Week"
-msgstr "Příští týden"
+msgstr "下周"
 
 #: /resources/lib/basedir.py
 msgctxt "#32284"
 msgid "This Week"
-msgstr "Tento týden"
+msgstr "本周"
 
 #: /resources/lib/basedir.py
 msgctxt "#32285"
 msgid "This Fortnight"
-msgstr "Těchto 14 dní"
+msgstr "这半个月"
 
 #: /resources/lib/_trakt_itemlists.py
 msgctxt "#32286"
 msgid "Rank"
-msgstr "Hodnocení"
+msgstr "排名"
 
 #: /resources/lib/_trakt_itemlists.py
 msgctxt "#32287"
 msgid "Sort by"
-msgstr "Řadit podle"
+msgstr "排序"
 
 #: /resources/lib/traktlists.py
 msgctxt "#32288"
 msgid "Because you watched"
-msgstr "Protože jsi sledoval"
+msgstr "因为您观看了"
 
 #: /resources/lib/script.py
 msgctxt "#32289"
 msgid "Add to collection"
-msgstr "Přidat do sbírky"
+msgstr "添加到合集"
 
 #: /resources/lib/script.py
 msgctxt "#32290"
 msgid "Remove from collection"
-msgstr "Odebrat ze sbírky"
+msgstr "从合集中移除"
 
 #: /resources/lib/script.py
 msgctxt "#32291"
 msgid "Add to watchlist"
-msgstr "Přidat do seznamu sledování"
+msgstr "添加到观看列表"
 
 #: /resources/lib/script.py
 msgctxt "#32292"
 msgid "Remove from watchlist"
-msgstr "Odebrat ze seznamu sledování"
-
-#: /resources/lib/script.py
-msgctxt "#32293"
-msgid "Add to recommendations"
-msgstr "Přidat do doporučených"
-
-#: /resources/lib/script.py
-msgctxt "#32294"
-msgid "Remove from recommendations"
-msgstr "Odebrat z doporučených"
+msgstr "从观看列表中移除"
 
 #: /resources/lib/script.py
 msgctxt "#32295"
 msgid "Trakt options"
-msgstr "Nastavení Trakt"
+msgstr "Trakt 设置"
 
 #: /resources/lib/script.py
 msgctxt "#32296"
@@ -1502,7 +1162,7 @@ msgid ""
 "{} failed for {}!\n"
 "{} ID {}"
 msgstr ""
-"{} neúspěšné pro {}!\n"
+"{} 失败{}!\n"
 "{} ID {}"
 
 #: /resources/lib/script.py
@@ -1511,88 +1171,78 @@ msgid ""
 "{} was successful for {}!\n"
 "{} ID {}"
 msgstr ""
-"{} bylo úspěšné pro {}!\n"
+"{} 已成功用于 {}!\n"
 "{} ID {}"
 
 #: /resources/lib/syncitem.py
 msgctxt "#32298"
 msgid "Add to user list"
-msgstr "Přidat do uživatelského seznamu"
+msgstr "添加到用户列表"
 
 #: /resources/lib/syncitem.py
 msgctxt "#32299"
 msgid "Add to new list"
-msgstr "Přidat do nového seznamu"
+msgstr "添加到新列表"
 
 #: /resources/lib/basedir.py
 msgctxt "#32300"
 msgid "Trending List"
-msgstr "Seznam trendů"
+msgstr "趋势列表"
 
 #: /resources/lib/basedir.py
 msgctxt "#32301"
 msgid "Popular List"
-msgstr "Seznam populárních"
+msgstr "流行列表"
 
 #: /resources/lib/basedir.py
 msgctxt "#32302"
 msgid "Liked List"
-msgstr "Seznam oblíbených"
+msgstr "人气列表"
 
 #: /resources/lib/basedir.py
 msgctxt "#32303"
 msgid "Your List"
-msgstr "Tvůj seznam"
+msgstr "我的列表"
 
 #: /resources/lib/trakt/sync.py
 msgctxt "#32304"
 msgid "View comments"
-msgstr "Zhlédnout komentáře"
+msgstr "查看评论"
 
 #: /resources/lib/trakt/sync.py
 msgctxt "#32305"
 msgid "Comments"
-msgstr "Komentáře"
+msgstr "评论"
 
 #: /resources/lib/trakt/sync.py
 msgctxt "#32306"
 msgid "No comments found!"
-msgstr "Komentáře nenalezeny!"
+msgstr "无评论！"
 
 #: /resources/lib/request/api.py
-msgctxt "#32307"
-msgid "Suppressing retries for {} seconds"
-msgstr "Zastavení opakování na dobu {} sekund"
-
-#: /resources/lib/request/api.py
-msgctxt "#32308"
-msgid "ConnectionError: {}"
-msgstr "ConnectionError: {}"
-
-#: /addon.xml
 msgctxt "#32309"
 msgid "Browse sorted list"
-msgstr "Procházet seřazený seznam"
+msgstr "浏览排序列表"
 
 #: /resources/lib/window/manager.py
 msgctxt "#32310"
 msgid "TMDb ID for {} not found!"
-msgstr "TMDb ID pro {} nenalezen!"
+msgstr "在 TMDB 未找到 {} !"
 
 #: /resources/lib/player/players.py
 msgctxt "#32311"
 msgid "Clear default player"
-msgstr "Vymazat výchozí přehrávač"
+msgstr "清除自带播放器"
 
 #: /resources/lib/helpers/update.py
 msgctxt "#32312"
 msgid "Select lists"
-msgstr "Vybrat seznamy"
+msgstr "选择列表"
 
 #: /resources/lib/script/router.py
 msgctxt "#32313"
 msgid "Enter URL to download players"
-msgstr "Zadejte URL pro stažení přehrávačů"
+msgstr "输入地址下载播放器"
 
 #: /resources/lib/script/router.py
 msgctxt "#32314"
@@ -1600,118 +1250,93 @@ msgid ""
 "Download players from URL?\n"
 "[B]{}[/B]"
 msgstr ""
-"Stáhnout přehrávače z adresy URL?\n"
+"从该地址下载播放器?\n"
 "[B]{}[/B]"
 
 #: /resources/lib/trakt/api.py
 msgctxt "#32315"
 msgid "Add to liked lists"
-msgstr "Přidat do oblíbených seznamů"
+msgstr "添加到人气列表"
 
 #: /resources/lib/trakt/api.py
 msgctxt "#32316"
 msgid "Successfully {} list!"
-msgstr "Úspěšně {} seznam!"
+msgstr "列表成功 {} ！"
 
 #: /resources/lib/trakt/api.py
 msgctxt "#32317"
 msgid "Unable to {} list!"
-msgstr "Nemožné {} seznam!"
+msgstr "不支持 {} 列表！"
 
 #: /resources/lib/trakt/api.py
 msgctxt "#32318"
 msgid "Error code: {}"
-msgstr "Chybová hláška: {}"
+msgstr "错误代码: {}"
 
 #: /resources/lib/trakt/api.py
 msgctxt "#32319"
 msgid "Remove from liked lists"
-msgstr "Vymazat z oblíbených seznamů"
+msgstr "从人气列表中删除"
 
 #: /resources/lib/trakt/api.py
 msgctxt "#32320"
 msgid "unliked"
-msgstr "nelíbí se mi"
+msgstr "不喜欢"
 
 #: /resources/lib/trakt/api.py
 msgctxt "#32321"
 msgid "liked"
-msgstr "líbí se mi"
+msgstr "喜欢"
 
 #: /addon.xml
 msgctxt "#32322"
 msgid "Select player"
-msgstr "Vybrat přehrávač"
-
-#: /resources/lib/helpers/update.py
-msgctxt "#32323"
-msgid "Item added to library"
-msgstr "Titul přidán do knihovny"
-
-#: /resources/lib/player/players.py
-msgctxt "#32324"
-msgid "Select Play Method"
-msgstr "Vyberte metodu přehrávání"
-
-#: /resources/lib/player/players.py
-msgctxt "#32325"
-msgid ""
-"Configuration for player is missing \"is_resolvable\" flag. Please select resolve method.\n"
-"\n"
-"setResolvedUrl is the preferred method and generally should work for any player addon that plays files directly, uses inputstream adapative, or only prompts to select bitrate/quality. PlayMedia should be used for any player addon which first runs a script to scrape sources or otherwise does not work correctly using the setResolvedUrl method.\n"
-"\n"
-"To override this dialog, set a resolve method for the player in TMDbHelper's player settings configuration dialog."
-msgstr ""
-"Konfigurace přehrávače postrádá příznak 'is_resolvable'. Prosím, vyberte metodu pro vyřešení.\n"
-"\n"
-"setResolvedUrl je preferovaná metoda a měla by fungovat pro každý doplněk přehrávače, který přehrává soubory přímo, používá inputstream adaptive nebo pouze vyžaduje výběr bitrate/quality. PlayMedia by měl být použit pro jakýkoli doplněk přehrávače, který nejprve spustí skript pro získání zdrojů nebo jinak nefunguje správně s metodou setResolvedUrl.\v\n"
-"\n"
-"Pro obcházení tohoto dialogu nastavte metodu pro vyřešení přehrávače v konfiguračním dialogu nastavení přehrávače v TMDbHelper."
+msgstr "选择播放器"
 
 #: /resources/lib/helpers/timedate.py
 msgctxt "#32326"
 msgid "This Month"
-msgstr "Tento měsíc"
+msgstr "本月"
 
 #: /resources/lib/helpers/timedate.py
 msgctxt "#32327"
 msgid "Last Month"
-msgstr "Minulý měsíc"
+msgstr "上月"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32328"
 msgid "Select Player to Configure"
-msgstr "Vyberte přehrávač k nastavení"
+msgstr "选择播放器设置"
 
 #: /resources/settings.xml
 msgctxt "#32329"
 msgid "Configure players"
-msgstr "Nastavit přehrávače"
+msgstr "设置播放器"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32330"
 msgid "Reset to Defaults"
-msgstr "Resetovat do původního nastavení"
+msgstr "恢复默认设置"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32331"
 msgid "Enter New Name for {}"
-msgstr "Zadej nové jméno pro {}"
+msgstr "输入新名字为 {}"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32332"
 msgid "Choose resolve method for player"
-msgstr "Zvolte metodu řešení pro přehrávač"
+msgstr "为播放器选择解决方式"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32333"
 msgid "User Choice"
-msgstr "Volba uživatele"
+msgstr "用户选择"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32334"
 msgid "Reset player to defaults?"
-msgstr "Resetovat přehrávač do původního nastavení?"
+msgstr "是否将播放器重置为默认值？"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32335"
@@ -1720,14 +1345,14 @@ msgid ""
 "\n"
 "[B]WARNING:[/B] This action cannot be undone."
 msgstr ""
-"Chcete obnovit soubor přehrávače [B]{}[/B] do jeho původního, neupraveného stavu na disku?\n"
+"是否要将[B]{}[/B]播放器文件重置回磁盘上未修改的原始状态？\n"
 "\n"
-"[B]UPOZORNĚNÍ:[/B] Tuto akci nelze vrátit zpět."
+"[B]警告：[/B] 此操作无法撤消。"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32336"
 msgid "Save your changes?"
-msgstr "Uložit změny?"
+msgstr "保存设置？"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32337"
@@ -1737,20 +1362,20 @@ msgid ""
 "\n"
 "If you close without saving, your changes will be lost."
 msgstr ""
-"Soubor přehrávače [B]{}[/B] byl změněn.\n"
-"Chcete uložit provedené změny?\n"
+"[B]{}[/B] 播放器文件已改动。\n"
+"保存设置？\n"
 "\n"
-"Pokud zavřete bez uložení, změny budou ztraceny."
+"如果不保存，设置将会丢失。"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32338"
 msgid "Close without Saving"
-msgstr "Zavřít bez uložení"
+msgstr "推出不保存"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32339"
 msgid "{} playback URL resolve method"
-msgstr "Metoda pro vyřešení URL přehrávání pro {}"
+msgstr "{} 播放 URL 解析方式"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32340"
@@ -1759,74 +1384,59 @@ msgid ""
 "\n"
 "Are you sure you want to set this player's resolve method to PlayMedia?"
 msgstr ""
-"Upozorňujeme, že metoda setResolvedUrl je preferovaným způsobem řešení URL pro přehrávání v Kodi. Metodu PlayMedia byste měli použít pouze tehdy, pokud máte s metodou setResolvedUrl problémy u tohoto konkrétního přehrávače.\n"
+"请注意，setResolvedUrl 是 Kodi 解析播放 URL 的首选方法。只有当您在此特定播放器中使用 setResolvedUrl 时遇到困难时，才应使用 PlayMedia 方法。\n"
 "\n"
-"Opravdu si přejete nastavit metodu řešení URL tohoto přehrávače na PlayMedia?"
+"你确定要将此播放器的解析方法设置为 PlayMedia 吗？"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32341"
 msgid "Choose fallback player method"
-msgstr "Zvolte náhradní metodu přehrávače"
+msgstr "选择备用播放方式"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32342"
 msgid "Fallbacks for {}"
-msgstr "Náhradní řešení pro {}"
+msgstr "备用播放"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32343"
 msgid "Choose fallback for {} {}"
-msgstr "Zvolte náhradní řešení pro {} {}"
+msgstr "选择备用播放"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32344"
 msgid "Enter New Priority for {}"
-msgstr "Zadejte novou prioritu pro {}"
+msgstr "输入 {} 的新优先级"
 
 #: /resources/lib/tmdb/api.py
 msgctxt "#32345"
 msgid "Episode groups"
-msgstr "Skupiny epizod"
-
-#: /resources/settings.xml
-msgctxt "#32346"
-msgid "Resend local files (fix Trakt scrobbling bug)"
-msgstr "Znovu odeslat místní soubory (oprava chyby scrobbingu na Trakt)"
+msgstr "分集组"
 
 #: /resources/settings.xml
 msgctxt "#32347"
 msgid "Log output of Trakt request"
-msgstr "Výstup požadavku na Trakt do logu"
+msgstr "Trakt 请求日志输出"
 
 #: /resources/settings.xml
 msgctxt "#32348"
 msgid "Log output of TMDb request"
-msgstr "Výstup požadavku na TMDb do logu"
+msgstr "TMDb 请求日志输出"
 
 #: /resources/lib/kodi/library.py
-msgctxt "#32349"
-msgid "Creating movies playlist"
-msgstr "Vytvářím seznam filmů"
-
-#: /resources/lib/kodi/library.py
-msgctxt "#32350"
-msgid "Creating tvshows playlist"
-msgstr "Vytvářím seznam seriálů"
-
-#: /resources/settings.xml
 msgctxt "#32351"
 msgid "Dummy ResolvedURL"
-msgstr "Fiktivní ResolvedURL"
+msgstr "虚拟解析 URL"
 
 #: /resources/settings.xml
 msgctxt "#32352"
 msgid "Dummy video duration (seconds)"
-msgstr "Fiktivní délka videa (vteřiny)"
+msgstr "占位视频时长（秒）"
 
 #: /resources/lib/player/players.py
 msgctxt "#32353"
 msgid "Missing \"is_resolvable\" Flag"
-msgstr "Chybějící flag \"is_resolvable\""
+msgstr "缺少“is_resolutible”标志"
 
 #: /resources/lib/player/players.py
 msgctxt "#32354"
@@ -1835,19 +1445,19 @@ msgid ""
 "\n"
 "Select \"Yes\" for any player that plays directly from single source. Select \"No\" for players that scrape multiple sources or otherwise do not work with the setResolvedURL method."
 msgstr ""
-"Zpracovává tento přehrávač přímo jediný přehratelný soubor?\n"
+"该播放器是否直接解析为单个可播放文件?\n"
 "\n"
-"Vyberte \"Ano\" pro jakýkoli přehrávač, který přehrává přímo z jednoho zdroje. Vyberte \"Ne\" pro přehrávače, které prohledávají více zdrojů nebo jinak nepracují s metodou setResolvedURL."
+"对于任何直接从单一来源播放的播放器，请选择“是”。对于抓取多个来源或不使用setResolvedURL方法的玩家，请选择“否”."
 
 #: /resources/lib/script/sync.py
 msgctxt "#32355"
 msgid "Remove from user list"
-msgstr "Odstranit z uživatelského seznamu"
+msgstr "从用户列表中移除"
 
 #: /resources/lib/script/sync.py
 msgctxt "#32356"
 msgid "Enter new list name"
-msgstr "Zadej název nového seznamu"
+msgstr "输入列表名称"
 
 #: /resources/lib/script/router.py
 msgctxt "#32357"
@@ -1856,185 +1466,159 @@ msgid ""
 "\n"
 "This action cannot be undone."
 msgstr ""
-"Chceš skutečně odstranit [B]{}[/B]?\n"
+"确定删除 [B]{}[/B]?\n"
 "\n"
-"Tuto akci nelze vrátit zpět."
+"未完成."
 
 #: /resources/lib/script/router.py
 msgctxt "#32358"
 msgid "Delete user list"
-msgstr "Vymazat uživatelský seznam"
+msgstr "删除用户列表"
 
 #: /resources/lib/script/router.py
 msgctxt "#32359"
 msgid "Enter new name"
-msgstr "Zadej nové jméno"
+msgstr "输入名称"
 
 #: /resources/lib/addon/plugin.py
 msgctxt "#32360"
 msgid "Companies"
-msgstr "Společnosti"
+msgstr "公司"
 
 #: /resources/lib/container/basedir.py
 msgctxt "#32361"
 msgid "Search Lists"
-msgstr "Seznamy hledání"
+msgstr "搜索列表"
 
 #: /resources/lib/script/sync.py
 msgctxt "#32362"
 msgid "Do you want to add this item to the library now?"
-msgstr "Chceš tento titul přidat do knihovny?"
+msgstr "现在添加项目到媒体库？"
 
 #: /resources/settings.xml
 msgctxt "#32363"
 msgid "Delay after resolving (seconds)"
-msgstr "Zpoždění po vyřešení (vteřiny)."
+msgstr "解析完成后延迟（秒）"
 
 #: /resources/settings.xml
 msgctxt "#32364"
 msgid "Reroute PlayMedia to xbmc.Player()"
-msgstr "Přesměrovat PlayMedia na xbmc.Player()"
+msgstr "将 PlayMedia 请求重定向到 xbmc.Player() 方法"
 
 #: /resources/lib/addon/plugin.py
 msgctxt "#32365"
 msgid "Combined"
-msgstr "Kombinované"
+msgstr "组合"
 
 #: /resources/settings.xml
 msgctxt "#32366"
 msgid "Hide items without airdates"
-msgstr "Skrýt položky bez data vysílání"
+msgstr "隐藏没有播出日期节目"
 
 #: /resources/settings.xml
 msgctxt "#32367"
 msgid "Local Information"
-msgstr "Místní informace"
+msgstr "本地信息"
 
 #: /resources/settings.xml
 msgctxt "#32368"
 msgid "Next Aired / Next Episodes"
-msgstr "Další odvysílané / Další epizody"
+msgstr "接下来/下一集"
 
 #: /resources/settings.xml
 msgctxt "#32369"
 msgid "thumbs"
-msgstr "náhledový"
+msgstr "缩略图"
 
 #: /resources/settings.xml
 msgctxt "#32370"
 msgid "landscape"
-msgstr "široký"
+msgstr "横向展示模式"
 
 #: /resources/settings.xml
 msgctxt "#32371"
 msgid "Preferred artwork for thumbs"
-msgstr "Preferovaný obrázek pro náhled"
+msgstr "首选艺术作品缩略图"
 
 #: /resources/settings.xml
 msgctxt "#32372"
 msgid "fanart"
-msgstr "fanouškovský"
+msgstr "背景图"
 
 #: /resources/settings.xml
 msgctxt "#32373"
 msgid "Restrict to library strm"
-msgstr "Omezit na knihovnu strm"
+msgstr "仅处理.strm文件"
 
 #: /resources/lib/player/players.py
 msgctxt "#32374"
 msgid "Constructing Players"
-msgstr "Sestavování přehrávačů"
+msgstr "初始化播放器"
 
 #: /resources/lib/player/players.py
 msgctxt "#32375"
 msgid "Retrieving Item Details"
-msgstr "Získávám detaily položky"
+msgstr "正在检索项目详细信息"
 
 #: /resources/lib/player/players.py
 msgctxt "#32376"
 msgid "Building Player Dialog"
-msgstr "Rozhraní sestavování přehrávače"
+msgstr "构建播放器对话框"
 
 #: /resources/lib/trakt/api.py
-msgctxt "#32377"
-msgid "Playcount"
-msgstr "Počet přehrání"
-
-#: /resources/settings.xml
 msgctxt "#32378"
 msgid "Show All"
-msgstr "Ukázat vše"
+msgstr "显示所有"
 
 #: /resources/settings.xml
 msgctxt "#32379"
 msgid "Hide Specials"
-msgstr "Skrýt speciály"
+msgstr "隐藏特殊"
 
 #: /resources/settings.xml
 msgctxt "#32380"
 msgid "Hide Up Next"
-msgstr "Skrýt další na řadě"
+msgstr "隐藏“下一个”"
 
 #: /resources/settings.xml
 msgctxt "#32381"
 msgid "Hide Up Next and Specials"
-msgstr "Skrýt další na řadě a speciály"
+msgstr "隐藏“下一个”和特别节目"
 
 #: /resources/settings.xml
 msgctxt "#32382"
 msgid "Hide Episode Groups"
-msgstr "Skrýt skupiny epizod"
+msgstr "隐藏剧集分组"
 
 #: /resources/settings.xml
 msgctxt "#32383"
 msgid "Hide Episode Groups and Specials"
-msgstr "Skrýt skupiny epizod a speciály"
+msgstr "隐藏剧集分组与特别节目"
 
 #: /resources/settings.xml
 msgctxt "#32384"
 msgid "Hide Episode Groups and Up Next"
-msgstr "Skrýt skupiny epizod a další na řadě"
+msgstr "隐藏剧集分组和“下一个”"
 
 #: /resources/settings.xml
 msgctxt "#32385"
 msgid "Hide All"
-msgstr "Skrýt vše"
+msgstr "隐藏所有"
 
 #: /resources/settings.xml
-msgctxt "#32386"
-msgid "Delete cache"
-msgstr "Vymazat paměť cache"
-
-#: /resources/lib/script/router.py
 msgctxt "#32387"
 msgid "Delete {} Cache"
-msgstr "Vymazat {} Cache"
+msgstr "删除 {} 缓存"
 
 #: /resources/lib/script/router.py
-msgctxt "#32388"
-msgid ""
-"Are you sure you want to delete the {} cache? This action cannot be undone.\n"
-"\n"
-"TMDbHelper performs regular automatic cache management and cleaning. You should only delete the cache manually in cases of persistent cache related errors."
-msgstr ""
-"Jsi si jistý, že chceš vymazat {} cache? Tuto akci nelze vrátit zpět.\n"
-"\n"
-"TMDb Helper provádí automatickou údržbu paměti cache. Ruční mazání by jsi měl používat pouze v případech neustálých problému s pamětí cache."
-
-#: /resources/lib/script/router.py
-msgctxt "#32389"
-msgid "Cache deleted!"
-msgstr "Paměť cache vymazána!"
-
-#: /resources/settings.xml
 msgctxt "#32390"
 msgid "Use alternative .nfo filename"
-msgstr "Použít alternativní .nfo název"
+msgstr "使用 .info 文件名"
 
 #: /resources/lib/script/router.py
 msgctxt "#32391"
 msgid "Select update type"
-msgstr "Vybrat typ aktualizace"
+msgstr "选择更新类型"
 
 #: /resources/lib/script/router.py
 msgctxt "#32392"
@@ -2043,154 +1627,124 @@ msgid ""
 "\n"
 "Use [B]Forced Update[/B] to ignore previously cached update details and recheck all items. Forced updates should only be used when cleaning and rebuilding the Kodi library."
 msgstr ""
-"Použijte [B]Rychlou aktualizaci[/B] pro kontrolu nových položek.\n"
+"使用[B]快速更新[/B]检查新项目。\n"
 "\n"
-"Použijte [B]Vynucenou aktualizaci[/B] pro ignorování dříve uložených detailů a znovu zkontrolujte všechny položky. Vynucené aktualizace by měly být používány pouze při čištění a obnovování knihovny Kodi."
+"使用[B]强制更新[/B]可以忽略以前缓存的更新详细信息并重新检查所有项目。强制更新只能在清理和重建 Kodi 库时使用。"
 
 #: /resources/lib/script/router.py
 msgctxt "#32393"
 msgid "Forced Update"
-msgstr "Vynucená aktualizace"
+msgstr "强制更新"
 
 #: /resources/lib/script/router.py
 msgctxt "#32394"
 msgid "Quick Update"
-msgstr "Rychlá aktualizace"
+msgstr "快速更新"
 
 #: /resources/settings.xml
 msgctxt "#32395"
 msgid "Log timer reports for directories"
-msgstr "Zaznamenávat reporty časových údajů pro adresáře"
-
-#: /resources/settings.xml
-msgctxt "#32396"
-msgid "Set unwatched episode count for in-progress tvshows only"
-msgstr "Zobrazit počet nezhlédnutých epizod pouze pro rozkoukané seriály"
+msgstr "记录目录的计时器报告"
 
 #: /resources/settings.xml
 msgctxt "#32397"
 msgid "Original"
-msgstr "Původní"
+msgstr "原始"
 
 #: /resources/settings.xml
 msgctxt "#32398"
 msgid "Medium"
-msgstr "Střední"
-
-#: /resources/settings.xml
-msgctxt "#32399"
-msgid "Fallback to English when main language unavailable"
-msgstr "Použít angličtinu jako záložní jazyk pokud hlavní není k dispozici"
+msgstr "普通"
 
 #: /resources/settings.xml
 msgctxt "#32400"
 msgid "Play local Kodi library files"
-msgstr "Přehrát soubory z místní knihovny Kodi"
+msgstr "播放本地 Kodi 媒体库文件"
 
 #: /resources/settings.xml
 msgctxt "#32401"
 msgid "TMDb detailed information"
-msgstr "Detailní informace z TMDb"
-
-#: /resources/settings.xml
-msgctxt "#32402"
-msgid "Get additional details and artwork from TMDb"
-msgstr "Získat dodatečné informace a obrázky z TMDb"
-
-#: /resources/settings.xml
-msgctxt "#32403"
-msgid "Increase sync list item limit per page (slower)"
-msgstr "Zvýšit limit položek na stránce seznamu synchronizace (pomalější)"
+msgstr "TMDb 详细信息"
 
 #: /resources/settings.xml
 msgctxt "#32404"
 msgid "Flatten tvshows with multiple episodes airing same day"
-msgstr "Sloučit televizní pořady s více epizodami vysílanými ve stejný den"
+msgstr "播放最多剧集"
 
 #: /resources/lib/addon/constants.py
 msgctxt "#32405"
 msgid "Your TV Shows Airing This Week"
-msgstr "Vaše televizní pořady vysílané tento týden"
+msgstr "本周观看的剧集"
 
 #: /resources/lib/container/basedir.py
 msgctxt "#32406"
 msgid "Your In-Progress Episodes"
-msgstr "Vaše rozkoukané epizody"
+msgstr "正在观看的剧集"
 
 #: /resources/settings.xml
 msgctxt "#32407"
 msgid "Get resume points (experimental) (slower)"
-msgstr "Získat pozice pro pokračování (experimentální) (pomalejší)."
-
-#: /resources/settings.xml
-msgctxt "#32408"
-msgid "Prefer artwork from TMDb first if available"
-msgstr "Preferuj obrázek z TMDb pokud je dostupný"
+msgstr "获取续播点（实验性功能，速度较慢）"
 
 #: /resources/settings.xml
 msgctxt "#32409"
 msgid "Cache database location"
-msgstr "Umístění databáze cache paměti"
+msgstr "缓存数据库位置"
 
 #: /resources/settings.xml
 msgctxt "#32410"
 msgid "Max concurrent threads (0 is unlimited)"
-msgstr "Maximální počet současných vláken (0 znamená neomezeno)"
+msgstr "最大并发线程数（0不受限制）"
 
 #: /resources/lib/items/basedir.py
 msgctxt "#32411"
 msgid "Providers"
-msgstr "Poskytovatelé"
+msgstr "供应商"
 
 #: /resources/lib/api/tmdb/discover.py
 msgctxt "#32412"
 msgid "With Watch Provider"
-msgstr "S poskytovatelem sledování"
+msgstr "使用在线观看"
 
 #: /resources/settings.xml
 msgctxt "#32413"
 msgid "Next episodes checks calendar (slower but more accurate)"
-msgstr "Kontrola dalších epizod v kalendáři (pomalejší ale přesnější)"
+msgstr "下一集节目表匹配（较慢但更准确）"
 
 #: /resources/lib/addon/consts.py
 msgctxt "#32414"
 msgid "Most Watched"
-msgstr "Nejsledovanější"
+msgstr "最多观看"
 
 #: /resources/settings.xml
 msgctxt "#32415"
 msgid "Combine all players for plugin into single entry"
-msgstr "Spojte všechny přehrávače pro plugin do jediné položky"
+msgstr "合并所有播放器"
 
 #: /resources/lib/items/basedir.py
 msgctxt "#32416"
 msgid "Premieres"
-msgstr "Premiéry"
+msgstr "首映"
 
 #: /resources/lib/script/sync.py
-msgctxt "#32417"
-msgid "Remove from progress"
-msgstr "Odebrat z průběhu"
-
-#: /resources/settings.xml
 msgctxt "#32418"
 msgid "Adds text to the start of the MPAA rating. For example if set to 'Rated' a 'PG' rating is displayed as 'Rated PG'. Cached items will need to be refreshed."
-msgstr "Přidá text na začátek hodnocení MPAA. Například pokud je nastaveno na 'Rated', bude hodnocení 'PG' zobrazeno jako 'Rated PG'. Položky v cachi bude potřeba obnovit."
+msgstr "在 MPAA 分级的开头添加文本。例如，如果设置为“分级”，则“ PG ”分级显示为“分级 PG ”。缓存的项目将需要刷新。"
 
 #: /resources/settings.xml
 msgctxt "#32419"
 msgid "The language and country settings used when looking up data from TMDb and Trakt APIs"
-msgstr "Nastavení jazyka a země v případě hledání informací z TMDb a Trakt API"
+msgstr "从 TMDb 和 Trakt API 查找数据时使用的语言和国家/地区设置"
 
 #: /resources/settings.xml
 msgctxt "#32420"
 msgid "TMDb artwork quality"
-msgstr "Kvalita obrázku TMDb"
+msgstr "TMDb 艺术作品质量"
 
 #: /resources/lib/items/basedir.py
 msgctxt "#32421"
 msgid "Top Lists"
-msgstr "Nejlepší seznamy"
+msgstr "热门列表"
 
 #: /resources/settings.xml
 msgctxt "#32422"
@@ -2200,237 +1754,222 @@ msgstr "MDbList API"
 #: /resources/settings.xml
 msgctxt "#32423"
 msgid "MDbList API key"
-msgstr "MDbList API klíč"
+msgstr "MDbList API 密钥"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32424"
 msgid "Make episode playlists"
-msgstr "Vytvořit seznamy epizod"
+msgstr "新建剧集播放列表"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32425"
 msgid "Have TMDbHelper queue all episodes in a playlist when playing an episode using this player?"
-msgstr "Má TMDbHelper při přehrávání epizody pomocí tohoto přehrávače zařadit všechny epizody do fronty v playlistu?"
+msgstr "使用此播放器播放剧集时，是否需要 TMDbHelper 将列表中分集排序?"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32426"
 msgid "Return to previous folder (..)"
-msgstr "Zpět do předchozí složky (..)"
+msgstr "返回上级文件夹 (..)"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32427"
 msgid "Use current folder as search URL"
-msgstr "Nastavit aktuální složku jako vyhledávací URL"
+msgstr "将此文件夹作为搜索地址"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32428"
 msgid "Browse for MOVIE search url"
-msgstr "Vybrat cestu pro hledání FILMŮ"
+msgstr "浏览电影搜索网址"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32429"
 msgid "Browse for TVSHOW search url"
-msgstr "Vybrat cestu pro hledání SERIÁLŮ"
+msgstr "剧集浏览搜索地址"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32430"
 msgid "Enter a name for this player"
-msgstr "Zadej název pro tento přehrávač"
+msgstr "为播放器新建名称"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32431"
 msgid "Use the same search URL for tvshows as movies?"
-msgstr "Použít stejnou adresu URL i pro hledání seriálů?"
+msgstr "搜索电影和剧集使用同样地址的吗？"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32432"
 msgid "Select template"
-msgstr "Vybrat šablonu"
+msgstr "选择模板"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32433"
 msgid "Missing QUERYKEY in URL"
-msgstr "Chybí QUERYKEY v adrese URL"
+msgstr "地址中缺少 QUERYKEY"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32434"
 msgid "You must insert QUERYKEY where the search query for the URL goes"
-msgstr "Musíte vložit QUERYKEY tam, kam ve webové adrese (URL) patří vyhledávací dotaz"
+msgstr "您必须在搜索地址时插入 QUERYKEY"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32435"
 msgid "Input QUERYKEY where search query goes"
-msgstr "Zadejte QUERYKEY, kam se zadává hledaný dotaz"
+msgstr "在搜索地址中插入 QUERYKEY"
 
 #: /resources/settings.xml
 msgctxt "#32436"
 msgid "Details"
-msgstr "Detaily"
+msgstr "详情"
 
 #: /resources/settings.xml
 msgctxt "#32437"
 msgid "Configure provider data allowlist"
-msgstr "Nastavit seznam dostupných streamovacích služeb"
+msgstr "设置提供程序白名单"
 
 #: /resources/lib/script/method.py
 msgctxt "#32438"
 msgid "Provider allowlist updated"
-msgstr "Seznam povolených streamovacích služeb aktualizován"
+msgstr "提供程序允许列表已更新"
 
 #: /resources/lib/script/method.py
 msgctxt "#32439"
-msgid "The provider allowlist has been updated. Please note that updating provider details requires the item cache to be refreshed. The item cache can be deleted in the expert settings section."
-msgstr "Seznam povolených streamovacích služeb byl aktualizován. Upozorňujeme, že aktualizace údajů o poskytovateli vyžaduje obnovení mezipaměti položek. Mezipaměť položek lze odstranit v sekci pokročilých nastavení."
+msgid "The provider allowlist has been updated. "
+msgstr "提供程序列表已更新。"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32440"
 msgid "Edit steps"
-msgstr "Upravit kroky"
+msgstr "编辑步骤"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32441"
 msgid "Add a new step"
-msgstr "Přidat nový krok"
+msgstr "添加新步骤"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32442"
 msgid "Add a new rule"
-msgstr "Přidat nové pravidlo"
+msgstr "添加规则"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32443"
 msgid "Select value to match against {}"
-msgstr "Vyberte hodnotu, se kterou se má porovnávat {}"
+msgstr "选择要与 {} 匹配的值"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32444"
 msgid "Select rule or listitem key"
-msgstr "Vyberte pravidlo nebo položku seznamu (podle klíče)"
+msgstr "选择规则或列表项密钥"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32445"
 msgid "Edit Rules for Step {}"
-msgstr "Upravit pravidla pro krok {}"
+msgstr "为 {} 编辑规则"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32446"
 msgid "plugin:// search URL for {}"
-msgstr "plugin:// adresa pro vyhledávání {}"
+msgstr "plugin:// search URL for {}"
 
 #: /resources/lib/player/configure.py
 msgctxt "#32447"
 msgid "Up Next Only"
-msgstr "Pouze Následující"
+msgstr "仅下一个"
 
 #: /resources/settings.xml
 msgctxt "#32448"
 msgid "Stop before attempting playback"
-msgstr "Zastavit před pokusem o přehrávání"
+msgstr "尝试播放前停止"
 
 #: /resources/settings.xml
 msgctxt "#32449"
 msgid "Ignore region release filter"
-msgstr "Ignorovat filtr regionu vydání"
+msgstr "忽略地区筛选器"
 
 #: /resources/settings.xml
-msgctxt "#32450"
-msgid "Install context menu add-on"
-msgstr "Nainstalovat doplněk kontextového menu"
-
-#: /resources/lib/api/trakt/api.py
 msgctxt "#32451"
 msgid "Lowest"
-msgstr "Nejnižší"
+msgstr "最低"
 
 #: /resources/lib/api/trakt/api.py
 msgctxt "#32452"
 msgid "Highest"
-msgstr "Nejvyšší"
+msgstr "最高"
 
 #: /resources/lib/api/trakt/api.py
 msgctxt "#32453"
 msgid "Least played"
-msgstr "Nejméně přehrávané"
+msgstr "最少播放"
 
 #: /resources/lib/api/trakt/api.py
 msgctxt "#32454"
 msgid "Shortest"
-msgstr "Nejkratší"
+msgstr "最短时长"
 
 #: /resources/lib/api/trakt/api.py
 msgctxt "#32455"
 msgid "Longest"
-msgstr "Nejdelší"
+msgstr "最久时长"
 
 #: /resources/lib/items/basedir.py
 msgctxt "#32456"
 msgid "Watchlist (Released)"
-msgstr "Seznam sledování (vydané)"
+msgstr "观看列表（已发布）"
 
 #: /resources/lib/addon/consts.py
 msgctxt "#32457"
 msgid "Watchlist (Anticipated)"
-msgstr "Seznam sledování (očekávané)"
+msgstr "观看列表（预计）"
 
 #: /resources/lib/items/basedir.py
 msgctxt "#32458"
 msgid "Airing Next Library"
-msgstr "Knihovna následujících epizod"
+msgstr "播放下一个媒体库"
 
 #: /resources/lib/items/basedir.py
 msgctxt "#32459"
 msgid "Your Episodes Airing Next"
-msgstr "Vaše epizody, které budou vysílány příště"
+msgstr "你的下一个播放分集"
 
 #: /resources/lib/items/basedir.py
 msgctxt "#32460"
 msgid "Awards"
-msgstr "Oceněno"
+msgstr "奖项"
 
 #: /resources/lib/api/tvdb/lists.py
 msgctxt "#32461"
 msgid "Winner of"
-msgstr "Vítěz"
+msgstr "获奖"
 
 #: /resources/lib/api/tvdb/lists.py
 msgctxt "#32462"
 msgid "Nominated for"
-msgstr "Nominován za"
+msgstr "提名"
 
 #: /resources/settings.xml
 msgctxt "#32463"
 msgid "Cache items in custom lists you own for 24 hours"
-msgstr "Uložit položky v seznamu, který vlastníte, do paměti cache na 24 hodin"
-
-#: /resources/settings.xml
-msgctxt "#32464"
-msgid "Significantly increases RAM usage but might improve repeat cache reads for disk cache located on slow storage devices (e.g. USB or SD card storage). Will likely cause worse cache performance for devices with normal storage (e.g. SSD, eMMC or internal HDD) or limited RAM."
-msgstr "Výrazně zvyšuje využití paměti RAM, ale může zlepšit opakované čtení z mezipaměti, pokud je disková mezipaměť umístěna na pomalém úložišti (např. USB nebo SD kartě). U zařízení s běžným úložištěm (např. SSD, eMMC nebo interní HDD) nebo s omezenou pamětí RAM může naopak způsobit horší výkon mezipaměti."
-
-#: /resources/settings.xml
-msgctxt "#32465"
-msgid "Cache disk reads to memory (increases RAM usage)"
-msgstr "Ukládat čtení z disku do paměti (zvyšuje využití RAM)"
+msgstr "将您创建的自定义列表中的项目缓存24小时"
 
 #: /resources/settings.xml
 msgctxt "#32466"
 msgid "Play automatically using available providers"
-msgstr "Přehrát automaticky přes dostupné streamovací služby"
+msgstr "使用可用播放器自动播放"
 
 #: /resources/settings.xml
 msgctxt "#32467"
 msgid "Refresh cached Kodi Library details"
-msgstr "Aktualizovat cache knihovny Kodi"
+msgstr "刷新缓存的 Kodi 媒体库详细信息"
 
 #: /resources/settings.xml
 msgctxt "#32468"
 msgid "Authorisation and sync notifications on startup"
-msgstr "Autorizace a synchronizace notifikací při startu"
+msgstr "启动时的授权和同步通知"
 
 #: /resources/settings.xml
 msgctxt "#32469"
 msgid "Ignore articles when sorting alphabetically"
-msgstr "Ignorovat členy (např. „the“, „a“, „an“) při abecedním řazení"
+msgstr "按字母顺序排序时忽略文章"
 
 #: /resources/settings.xml
 msgctxt "#32470"
@@ -2440,67 +1979,52 @@ msgstr "Trakt"
 #: /resources/settings.xml
 msgctxt "#32471"
 msgid "Connection error notifications"
-msgstr "Oznámení o chybě připojení"
+msgstr "连接错误通知"
 
 #: /resources/settings.xml
 msgctxt "#32472"
 msgid "Cache image location"
-msgstr "Umístění cachovaného obrázku"
+msgstr "缓存图像位置"
 
 #: /resources/lib/api/trakt/api.py
 msgctxt "#32473"
 msgid "Collected"
-msgstr "Shromážděno"
+msgstr "已收藏"
 
 #: /resources/lib/script/method.py
 msgctxt "#32474"
 msgid "Successfully added {} as default player for {}"
-msgstr "Úspěšně přidán {} jako výchozí přehrávač pro {}"
+msgstr "已成功将 {} 添加为 {} 默认播放器"
 
 #: /resources/lib/script/method.py
 msgctxt "#32475"
 msgid "Successfully cleared default player for {}"
-msgstr "Úspěšně vymazán {} jako výchozí přehrávač pro {}"
+msgstr "已成功清除 {} 默认播放器"
 
 #: /resources/lib/items/listitem.py
 msgctxt "#32476"
 msgid "Choose default player"
-msgstr "Vyber výchozí přehrávač"
+msgstr "选择默认播放器"
 
 #: /resources/lib/script/method.py
 msgctxt "#32477"
 msgid "Change default player for tvshow, season, or episode"
-msgstr "Změň výchozí přehrávač pro seriál, sezónu nebo epizodu"
-
-#: /resources/settings.xml
-msgctxt "#32478"
-msgid "Rebuild service listitems offscreen"
-msgstr "Znovu vytvořit položky seznamu služby mimo obrazovku"
-
-#: /resources/settings.xml
-msgctxt "#32479"
-msgid "Some platforms experience crashes while updating onscreen background service listitems with additional properties. Forcing service listitems to be rebuilt offscreen prevents this issue but will be slightly slower to add artwork and ratings. Restart Kodi to see changes."
-msgstr "Některé platformy mohou při aktualizaci položek seznamu služeb na pozadí obrazovky s dalšími vlastnostmi zažít pády. Donucení položek seznamu služeb k opětovnému vytvoření mimo obrazovku tento problém zabrání, ale přidání grafiky a hodnocení bude o něco pomalejší. Pro zobrazení změn restartujte Kodi."
-
-#: /resources/settings.xml
-msgctxt "#32480"
-msgid "Readahead caching of service listitems"
-msgstr "Mezipaměť předběžného načítání položek seznamu služeb"
+msgstr "更改剧集默认播放器"
 
 #: /resources/settings.xml
 msgctxt "#32481"
 msgid "Increases the pool of recently watched items randomly selected from the seed to use for \"Because You Watched\" style recommendations."
-msgstr "Zvětšuje zásobu nedávno sledovaných položek, které jsou náhodně vybírány z původního seznamu pro doporučení ve stylu „Protože jste sledovali“."
+msgstr "增加从种子中随机选择的最近观看的项目池，以用于“因为你看过”风格推荐。"
 
 #: /resources/settings.xml
 msgctxt "#32482"
 msgid "Random seed pool for recommendations"
-msgstr "Náhodný výběr počátečních dat pro doporučení"
+msgstr "随机推荐偏好库"
 
 #: /resources/settings.xml
 msgctxt "#32483"
 msgid "Allow 3rd party plugin access to API key/token"
-msgstr "Povolit přístup doplňků třetích stran přes API klíč/token"
+msgstr "允许第三方插件访问 API 密钥/令牌"
 
 #: /resources/settings.xml
 msgctxt "#32484"
@@ -2510,334 +2034,416 @@ msgstr "TVDb API"
 #: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#32485"
 msgid "Add rating"
-msgstr "Přidat hodnocení"
+msgstr "增加评分"
 
 #: /resources/tmdbhelper/lib/api/tmdb/discover.py
 msgctxt "#32486"
 msgid "Certification"
-msgstr "Certifikace"
+msgstr "证书"
 
 #: /resources/tmdbhelper/lib/api/tmdb/discover.py
 msgctxt "#32487"
 msgid "Certification ( < or = )"
-msgstr "Certifikace ( < or = )"
+msgstr "证书小于等于"
 
 #: /resources/tmdbhelper/lib/api/tmdb/discover.py
 msgctxt "#32488"
 msgid "Certification ( > or = )"
-msgstr "Certifikace ( > or = )"
+msgstr "证书大于等于"
 
 #: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#32489"
 msgid "Change rating"
-msgstr "Změnit hodnocení"
+msgstr "改变评分"
 
 #: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#32490"
 msgid "Add to favourites"
-msgstr "Přidat do oblíbených"
+msgstr "添加到收藏夹"
 
 #: /resources/tmdbhelper/lib/script/sync.py
 msgctxt "#32491"
 msgid "Remove from favourites"
-msgstr "Odebrat z oblíbených"
+msgstr "从收藏夹移除"
 
 #: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#32492"
 msgid "{} already exists in {}!\\nDo you wish to remove this item from the list?"
-msgstr "{} už existuje v {}!\\nChceš tuto položku odstranit ze seznamu?"
+msgstr "{} 已存在于 {} !\\n你想要从列表中删除吗?"
 
 #: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#32493"
 msgid "Successfully removed {} from {}"
-msgstr "Úspěšně odstraněno {} z {}"
+msgstr "成功移除 {} 从 {}"
 
 #: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#32494"
 msgid "Successfully added {} to {}"
-msgstr "Úspěšně přidán {} do {}"
+msgstr "成功添加 {} 到 {}"
 
 #: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#32495"
 msgid "Create new node"
-msgstr "Vytvořit nový uzel"
+msgstr "创建新节点"
 
 #: /resources/tmdbhelper/lib/items/container.py
 msgctxt "#32496"
 msgid "Add/Remove as Custom Node"
-msgstr "Přidat/Odebrat jako vlastní uzel"
+msgstr "添加/删除为自定义节点"
 
 #: /resources/settings.xml
 msgctxt "#32497"
 msgid "Container content fallback for service listitems without mediatypes"
-msgstr "Náhradní obsah kontejneru pro položky seznamu služeb bez mediálních typů"
+msgstr "为无媒体类型的服务列表项设置容器内容回退"
 
 #: /resources/settings.xml
 msgctxt "#32498"
 msgid "Some plugins have poor metadata and fail to fill the item mediatype which results in the service monitor not completing an item lookup. This setting allows the service monitor to use the container content type when item mediatype is missing. Note this setting will likely result more frequent incorrect matches due to the end plugin having bad metadata."
-msgstr "Některé pluginy mají špatná metadata a nevyplní typ média položky, což způsobí, že monitor služby nedokončí hledání položky. Toto nastavení umožňuje monitoru služby použít typ obsahu kontejneru, když chybí typ média položky. Upozorňujeme, že toto nastavení pravděpodobně povede k častějším nesprávným shodám kvůli špatným metadatům koncového pluginu."
+msgstr "部分插件的元数据质量较差，未能正确填充项目的媒体类型，导致服务监视器无法完成条目查找。此设置允许服务监视器在媒体类型缺失时，使用容器的内容类型作为回退。注意：启用此选项可能导致匹配错误率增加，因下游插件的元数据不完整或错误。"
 
+# 翻页速度倍数
 #: /resources/settings.xml
 msgctxt "#32499"
 msgid "Page multipliers (higher is slower)"
-msgstr "Násobitelé stránek (vyšší = pomalejší)"
+msgstr "页面倍数（越高速度越慢）"
 
 #: /resources/settings.xml
 msgctxt "#32500"
 msgid "Page multiplier (TMDb basic lists)"
-msgstr "Násobitel stránek (základní seznamy TMDb)"
+msgstr "页面倍率（TMDb 基本列表）"
 
 #: /resources/settings.xml
 msgctxt "#32501"
 msgid "Page multiplier (Trakt basic lists)"
-msgstr "Násobitel stránek (základní seznamy Trakt)"
+msgstr "页面倍率（Trakt 基本列表）"
 
 #: /resources/settings.xml
 msgctxt "#32502"
 msgid "Page multiplier (Trakt sync lists)"
-msgstr "Násobitel stránek (synchronizované seznamy Trakt)"
+msgstr "页面倍率（Trakt 同步列表）"
 
 #: /resources/settings.xml
 msgctxt "#32503"
 msgid "Page multiplier (Library windows)"
-msgstr "Násobitel stránek (okna Knihovny)"
+msgstr "页面倍率（媒体库列表视图）"
 
 #: /resources/tmdbhelper/lib/script/method.py
 msgctxt "#32504"
 msgid "Add {} to node"
-msgstr "Přidat {} k uzlu"
+msgstr "将{}添加到节点"
 
 #: /resources/settings.xml
 msgctxt "#32505"
 msgid "Genre icons folder (TMDb)"
-msgstr "Složka ikon žánrů (TMDb)"
+msgstr "类型图标文件夹 (TMDb)"
 
 #: /resources/settings.xml
 msgctxt "#32506"
 msgid "Provider icons folder (TMDb)"
-msgstr "Složka ikon poskytovatelů (TMDb)"
+msgstr "提供商图标文件夹 (TMDb)"
 
 #: /resources/settings.xml
 msgctxt "#32507"
 msgid "Genre icon folder (Trakt)"
-msgstr "Složka ikon žánrů (Trakt)"
+msgstr "类型图标文件夹 (Trakt)"
 
 #: /resources/settings.xml
 msgctxt "#32508"
 msgid "Recache Kodi Library details when building players"
-msgstr "Znovu načíst detaily knihovny Kodi při vytváření přehrávačů"
+msgstr "在配置播放器插件时强制更新媒体库元数据缓存"
 
 #: /resources/settings.xml
 msgctxt "#32509"
 msgid "Use alternative TMDb API url"
-msgstr "Použít alternativní TMDb API adresu"
+msgstr "使用备用TMDb API url"
+
+#: /resources/settings.xml
+msgctxt "#32514"
+msgid "Add to MDbList list"
+msgstr "添加到 MDbList 列表"
+
+#: /resources/tmdbhelper/lib/script/sync.py
+msgctxt "#32516"
+msgid "MDbList API credentials not found."
+msgstr "未找到 MDbList API 凭据。"
+
+#: /resources/tmdbhelper/lib/script/sync.py
+msgctxt "#32517"
+msgid "Add your personal MDbList API key in TMDbHelper settings."
+msgstr "在 TMDbHelper 设置中添加您个人的 MDbList API 密钥。"
+
+#: /resources/tmdbhelper/lib/script/sync.py
+msgctxt "#32518"
+msgid "No static lists found for current MDbList user."
+msgstr "未找到当前 MDbList 用户的静态列表。"
+
+#: /resources/tmdbhelper/lib/script/sync.py
+msgctxt "#32519"
+msgid "Remove from MDbList list"
+msgstr "从 MDbList 列表中删除"
+
+#: /resources/settings.xml
+msgctxt "#32520"
+msgid "TMDb"
+msgstr "TMDb"
+
+#: /resources/tmdbhelper/lib/addon/consts.py
+msgctxt "#32521"
+msgid "Rated"
+msgstr "已评分"
+
+#: /resources/settings.xml
+msgctxt "#32522"
+msgid "TMDb user options"
+msgstr "TMDb 用户选项"
+
+#: /resources/tmdbhelper/lib/script/method/tmdb.py
+msgctxt "#32523"
+msgid "Add/Remove from TMDb user list"
+msgstr "从 TMDb 用户列表中添加/删除"
+
+#: /resources/tmdbhelper/lib/api/tmdb/useritemmethods.py
+msgctxt "#32524"
+msgid "User lists"
+msgstr "用户列表"
+
+#: /resources/tmdbhelper/lib/script/method/tmdb.py
+msgctxt "#32525"
+msgid "Add/Remove from TMDb favourites"
+msgstr "从 TMDb 收藏夹添加/删除"
+
+#: /resources/tmdbhelper/lib/script/method/tmdb.py
+msgctxt "#32526"
+msgid "Add/Remove from TMDb watchlist"
+msgstr "从 TMDB 监视列表添加/删除"
+
+#: /resources/tmdbhelper/lib/api/tmdb/useritemmethods.py
+msgctxt "#32527"
+msgid "Remove from {}"
+msgstr "从{}中删除"
+
+#: /resources/tmdbhelper/lib/api/tmdb/useritemmethods.py
+msgctxt "#32528"
+msgid "Add to {}"
+msgstr "添加到 {}"
+
+#: /resources/settings.xml
+msgctxt "#32529"
+msgid "Scrobble items played via TMDbHelper"
+msgstr "通过 TMDbHelper 播放的滚动项目"
+
+#: /resources/tmdbhelper/lib/script/sync.py
+msgctxt "#32530"
+msgid "Remove rating"
+msgstr "删除评分"
+
+#: /resources/tmdbhelper/lib/script/sync/item.py
+msgctxt "#32531"
+msgid "Method only available for VIP accounts."
+msgstr "该方法仅适用于 VIP 账户。"
+
+#: /resources/tmdbhelper/lib/script/sync/basic.py
+msgctxt "#32532"
+msgid "Force resync"
+msgstr "强制重新同步"
+
+#: /resources/settings.xml
+msgctxt "#32534"
+msgid "Trakt sync progress notifications"
+msgstr "Trakt 同步进度通知"
+
+#: /resources/tmdbhelper/lib/items/database/itemmeta_factories/concrete_classes/person.py
+msgctxt "#32535"
+msgid "Non-binary"
+msgstr "非二进制"
+
+#: /resources/tmdbhelper/lib/items/database/itemmeta_factories/concrete_classes/person.py
+msgctxt "#32536"
+msgid "Unspecified"
+msgstr "未指定"
 
 msgctxt "#30030"
 msgid "Hindi (India)"
-msgstr "Hindština (Indie)"
+msgstr "印地语（印度）"
 
 msgctxt "#30031"
 msgid "Hungarian (Hungary)"
-msgstr "Maďarština (Maďarsko)"
+msgstr "匈牙利语（匈牙利）"
 
 msgctxt "#30032"
 msgid "Indonesian (Indonesia)"
-msgstr "Indonéština (Indonésie)"
+msgstr "印度尼西亚语（印度尼西亚）"
 
 msgctxt "#30033"
 msgid "Italian (Italy)"
-msgstr "Italština (Itálie)"
+msgstr "意大利语（意大利）"
 
 msgctxt "#30034"
 msgid "Japanese (Japan)"
-msgstr "Japonština (Japonsko)"
+msgstr "日语（日本）"
 
 msgctxt "#30035"
 msgid "Georgian (Georgia)"
-msgstr "Gruzínština (Gruzie)"
+msgstr "格鲁吉亚语（格鲁吉亚）"
 
 msgctxt "#30036"
 msgid "Kazakh (Kazakhstan)"
-msgstr "Kazaština (Kazachstán)"
+msgstr "哈萨克语（哈萨克斯坦）"
 
 msgctxt "#30037"
 msgid "Kannada (India)"
-msgstr "Kannadština (Indie)"
+msgstr "卡纳达语（印度）"
 
 msgctxt "#30038"
 msgid "Korean (South Korea)"
-msgstr "Korejština (Jižní Korea)"
+msgstr "韩语（韩国）"
 
 msgctxt "#30039"
 msgid "Lithuanian (Lithuania)"
-msgstr "Litevština (Litva)"
+msgstr "立陶宛语（立陶宛）"
 
 msgctxt "#30040"
 msgid "Latvian (Latvia)"
-msgstr "Lotyština (Lotyšsko)"
+msgstr "拉脱维亚语（拉脱维亚）"
 
 msgctxt "#30041"
 msgid "Malayalam (India)"
-msgstr "Malajálamština (Indie)"
+msgstr "马拉雅拉姆语（印度）"
 
 msgctxt "#30042"
 msgid "Malay (Malaysia)"
-msgstr "Malajština (Malajsie)"
+msgstr "马来语（马来西亚）"
 
 msgctxt "#30043"
 msgid "Malay (Singapore)"
-msgstr "Malajština (Singapur)"
+msgstr "马来语（新加坡）"
 
 msgctxt "#30044"
 msgid "Norwegian Bokmål (Norway)"
-msgstr "Norština Bokmål (Norsko)"
+msgstr "挪威博克马尔语（挪威）"
 
 msgctxt "#30045"
 msgid "Dutch (Netherlands)"
-msgstr "Nizozemština (Nizozemsko)"
+msgstr "荷兰语（荷兰）"
 
 msgctxt "#30046"
 msgid "Norwegian (Norway)"
-msgstr "Norština (Norsko)"
+msgstr "挪威语（挪威）"
 
 msgctxt "#30047"
 msgid "Polish (Poland)"
-msgstr "Polština (Polsko)"
+msgstr "波兰语（波兰）"
 
 msgctxt "#30048"
 msgid "Portuguese (Brazil)"
-msgstr "Portugalština (Brazílie)"
+msgstr "葡萄牙语（巴西）"
 
 msgctxt "#30049"
 msgid "Portuguese (Portugal)"
-msgstr "Portugalština (Portugalsko)"
+msgstr "葡萄牙语（葡萄牙）"
 
 msgctxt "#30050"
 msgid "Romanian (Romania)"
-msgstr "Rumunština (Rumunsko)"
+msgstr "罗马尼亚语（罗马尼亚）"
 
 msgctxt "#30051"
 msgid "Russian (Russia)"
-msgstr "Ruština (Rusko)"
+msgstr "俄语（俄罗斯）"
 
 msgctxt "#30052"
 msgid "Sinhalese (Sri Lanka)"
-msgstr "Sinhálština (Srí Lanka)"
+msgstr "僧伽罗语（斯里兰卡）"
 
 msgctxt "#30053"
 msgid "Slovak (Slovakia)"
-msgstr "Slovenština (Slovakia)"
+msgstr "斯洛伐克语（斯洛伐克）"
 
 msgctxt "#30054"
 msgid "Slovenian (Slovenia)"
-msgstr "Slovinština (Slovinsko)"
+msgstr "斯洛文尼亚语（斯洛文尼亚）"
 
 msgctxt "#30055"
 msgid "Serbian (Serbia)"
-msgstr "Srbština (Srbsko)"
+msgstr "塞尔维亚语（塞尔维亚）"
 
 msgctxt "#30056"
 msgid "Swedish (Sweden)"
-msgstr "Švédština (Švédsko)"
+msgstr "瑞典语（瑞典）"
 
 msgctxt "#30057"
 msgid "Tamil (India)"
-msgstr "Tamilština (Indie)"
+msgstr "泰米尔语（印度）"
 
 msgctxt "#30058"
 msgid "Telugu (India)"
-msgstr "Telugština (Indie)"
+msgstr "泰卢固语（印度）"
 
 msgctxt "#30059"
 msgid "Thai (Thailand)"
-msgstr "Thajština (Thajsko)"
+msgstr "泰语（泰国）"
 
 msgctxt "#30060"
 msgid "Tagalog (Philippines)"
-msgstr "Tagalog (Filipíny)"
+msgstr "他加禄语（菲律宾）"
 
 msgctxt "#30061"
 msgid "Turkish (Turkey)"
-msgstr "Turečtina (Turecko)"
+msgstr "土耳其语（土耳其）"
 
 msgctxt "#30062"
 msgid "Ukrainian (Ukraine)"
-msgstr "Ukrajinština (Ukrajina)"
+msgstr "乌克兰语（乌克兰）"
 
 msgctxt "#30063"
 msgid "Vietnamese (Vietnam)"
-msgstr "Vietnamština (Vietnam)"
+msgstr "越南语（越南）"
 
 msgctxt "#30064"
 msgid "Mandarin (China)"
-msgstr "Mandarínština (Čína)"
+msgstr "普通话（中国）"
 
 msgctxt "#30065"
 msgid "Mandarin (Hong Kong)"
-msgstr "Mandarínština (Hong Kong)"
+msgstr "普通话（香港）"
 
 msgctxt "#30066"
 msgid "Mandarin (Taiwan)"
-msgstr "Mandarínština (Taiwan)"
+msgstr "普通话（台湾）"
 
 msgctxt "#30067"
 msgid "Zulu (South Africa)"
-msgstr "Zulu (Jižní Afrika)"
-
-#: /resources/settings.xml
-msgctxt "#32000"
-msgid "TMDb API key"
-msgstr "TMDb API klíč"
+msgstr "祖鲁语（南非）"
 
 #: /resources/settings.xml
 msgctxt "#32001"
 msgid "OMDb API key"
-msgstr "OMDb API klíč"
+msgstr "OMDb API密钥"
 
 #: /resources/settings.xml
 msgctxt "#32002"
 msgid "Days to cache details"
-msgstr "Dny pro ukládání do cache paměti"
+msgstr "缓存详细信息的天数"
 
-#: /resources/settings.xml
-msgctxt "#32003"
-msgid "Days to cache lists"
-msgstr "Dny pro ukládání seznamů do cache paměti"
-
+# "MPAA rating prefix" 通常指电影分级标签的前缀（例如 Rated: PG-13 中的 Rated: 部分）
 #: /resources/settings.xml
 msgctxt "#32004"
 msgid "MPAA rating prefix"
-msgstr "Předložka hodnocení přístupnosti MPAA"
+msgstr "MPAA 评级前缀"
 
 #: /resources/settings.xml
 msgctxt "#32005"
 msgid "Language and country"
-msgstr "Nastavení jazyka a země"
+msgstr "语言和国家"
 
 #: /resources/lib/utils.py
-msgctxt "#32006"
-msgid "Choose item"
-msgstr "Vybrat položku"
-
-#: /resources/lib/requestapi.py
 msgctxt "#32007"
 msgid "Unauthorised 401 Error"
-msgstr "Chyba 401"
+msgstr "未经授权的 401 错误"
 
 #: /resources/lib/requestapi.py
-msgctxt "#32008"
-msgid "API Key"
-msgstr "API Klíč"
-
-#: /resources/lib/requestapi.py
-msgctxt "#32009"
-msgid "API returned 401 unauthorised error. If you have entered an API key for this service$COMMA please check that it is correct. If this error relates to TMDb API$COMMA please post a debug log to [B]https://github.com/jurialmunkey/plugin.video.themoviedb.helper/issues[/B]"
-msgstr "API vrátilo chybu 401 - Neautorizováno. Pokud jste zadali API klíč pro tuto službu$COMMA , prosím zkontrolujte, že je správný. Pokud tato chyba souvisí s TMDb API$COMMA , prosím zveřejněte log pro ladění na [B]https://github.com/jurialmunkey/plugin.video.themoviedb.helper/issues[/B]."
-
-#: /resources/settings.xml
 msgctxt "#32010"
 msgid "Authenticate Trakt account..."
-msgstr "Spárovat s účtem Trakt..."
+msgstr "验证 Trakt 帐户……"
 
 #: /resources/lib/traktapi.py
 msgctxt "#32011"
@@ -2847,79 +2453,44 @@ msgstr "Token"
 #: /resources/lib/traktapi.py
 msgctxt "#32012"
 msgid "You must authenticate your Trakt account to use this feature."
-msgstr "Musíš ověřit svůj účet Trakt aby jsi mohl používat tuto funkci."
-
-#: /resources/settings.xml
-msgctxt "#32013"
-msgid "Display Trakt list management options in TMDb details list"
-msgstr "Zobrazit možnosti správy seznamu Trakt v seznamu podrobností TMDb"
+msgstr "您必须验证您的 Trakt 帐户才能使用此功能。"
 
 #: /resources/settings.xml
 msgctxt "#32014"
 msgid "Players"
-msgstr "Přehrávače"
-
-#: /resources/settings.xml
-msgctxt "#32015"
-msgid "Players URL"
-msgstr "Adresa URL přehrávačů"
+msgstr "播放器"
 
 #: /resources/settings.xml
 msgctxt "#32016"
 msgid "Update players from URL"
-msgstr "Aktualizovat přehrávače z URL"
+msgstr "更新播放器 URL"
 
 #: /resources/settings.xml
 msgctxt "#32017"
 msgid "API Keys"
-msgstr "API Klíče"
-
-#: /resources/settings.xml
-msgctxt "#32018"
-msgid "Fanart.tv API key"
-msgstr "Fanart.tv API klíč"
+msgstr "API 密钥"
 
 #: /resources/settings.xml
 msgctxt "#32019"
 msgid "Fanart.tv client key"
-msgstr "Fanart.tv klientský klíč"
-
-#: /resources/settings.xml
-msgctxt "#32020"
-msgid "Only use if default api key is deactivated"
-msgstr "Používat pouze pokud je výchozí api klíč deaktivován"
+msgstr "Fanart.tv client 密钥"
 
 #: /resources/settings.xml
 msgctxt "#32021"
 msgid "Use fanart.tv for plugin artwork (slower)"
-msgstr "Použij fanart.tv pro obrázky pluginů (pomalejší)"
-
-#: /resources/settings.xml
-msgctxt "#32022"
-msgid "Play / Open"
-msgstr "Přehrát / Otevřít"
+msgstr "将 fanart.tv 用于艺术作品（较慢）"
 
 #: /resources/settings.xml
 msgctxt "#32023"
 msgid "Default select action in addon"
-msgstr "Výchozí akce při výběru v doplňku"
+msgstr "默认选择操作"
 
 #: /resources/settings.xml
 msgctxt "#32024"
 msgid "Default player for movies"
-msgstr "Výchozí přehrávač pro filmy"
+msgstr "电影默认播放器"
 
 #: /resources/settings.xml
 msgctxt "#32025"
 msgid "Default player for episodes"
-msgstr "Výchozí přehrávač pro epizody"
-
-#: /resources/settings.xml
-msgctxt "#32026"
-msgid "Choose default players"
-msgstr "Vybrat výchozí přehrávače"
-
-#: /resources/settings.xml
-msgctxt "#32027"
-msgid "Clear default players"
-msgstr "Vymazat výchozí přehrávače"
+msgstr "剧集默认播放器"
